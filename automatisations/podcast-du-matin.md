@@ -10,14 +10,22 @@
 
 ## Contenu, dans cet ordre
 
-1. **Perso** : anniversaires et fêtes du jour (`dates.md`), puis ceux des 7 prochains jours avec une idée cadeau tirée de la fiche ; agenda famille du jour.
+1. **Perso** : anniversaires et fêtes du jour (`dates.md`), puis ceux des 7 prochains jours avec une idée cadeau tirée de la fiche ; agenda famille du jour ; **rappels de la maison** (voir ci-dessous).
 2. **Pro** : agenda Localia du jour ; tâches dues ou en retard (`taches.md`).
 3. **Sport** : résultats de la veille, F1 et endurance (à confirmer).
 4. **Actus** : 3 titres généraux, puis 3 à 5 infos tech et IA.
 
+## Rappels de la maison (hebdomadaires)
+
+Source : `maison/menage.md`.
+
+- **Mercredi** : "Ce soir, rangement de la maison : la femme de ménage passe demain."
+- **Jeudi** : "La femme de ménage passe cet après-midi, de 14 h à 17 h 30."
+- Si une absence ou un jour férié est noté dans `dates.md`, ne pas faire le rappel de cette semaine-là.
+
 ## Sources
 
-- Ce dépôt : `dates.md`, `taches.md`, `personnes/`.
+- Ce dépôt : `dates.md`, `taches.md`, `personnes/`, `maison/menage.md`.
 - Agendas : liens iCal privés, gardés dans la configuration de Hermès, **jamais dans ce dépôt**.
 - Actus et sport : flux RSS à choisir et tester.
 
