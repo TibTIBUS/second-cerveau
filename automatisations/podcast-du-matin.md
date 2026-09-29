@@ -12,8 +12,8 @@
 
 1. **Perso** : anniversaires et fêtes du jour (`dates.md`), puis ceux des 7 prochains jours avec une idée cadeau tirée de la fiche ; agenda famille du jour ; **rappels de la maison** (voir ci-dessous).
 2. **Pro** : agenda Localia du jour ; tâches dues ou en retard (`taches.md`).
-3. **Sport** : résultats de la veille, F1 et endurance (à confirmer).
-4. **Actus** : 3 titres généraux, puis 3 à 5 infos tech et IA.
+3. **Sport** : F1 ; football : équipe de France, Olympique de Marseille, Stade Malherbe de Caen (résultats de la veille, prochain match, actu importante). Endurance : à confirmer par Thibaut (retirée dans l'essai n°2).
+4. **Actus** : 3 titres généraux, puis 3 infos tech et IA (essai n°2 ; à confirmer pour la version définitive).
 
 ## Rappels de la maison (hebdomadaires)
 
