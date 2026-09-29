@@ -14,12 +14,13 @@ Retrouver facilement les infos, ne plus rien oublier de ce qui concerne les proc
 - 2026-09-29 — Écarté : confier les appels de prospection à une IA (image de proximité, cadre juridique des appels automatisés, transparence IA).
 - 2026-09-29 — Données des clients Localia : hors de ce dépôt.
 - 2026-09-29 — Écriture directe sur `main` autorisée ici (exception à la règle du site Localia). Aucune suppression sans accord de Thibaut.
+- 2026-09-29 — Podcast du matin : tous les jours à 6 h ; contenu = perso (dates, planning famille, ménage), pro, sport (F1, équipe de France, OM, SM Caen), espace (seulement si important), actus et tech/IA. Voir `automatisations/podcast-du-matin.md`.
 
 ## Outils retenus
 
 - Dépôt GitHub privé : stockage.
 - Hermès via Telegram : capture vocale, rappels, tâches planifiées.
-- Synthèse vocale : Edge TTS, gratuite (option par défaut de Hermes Agent, à confirmer sur l'installation de Thibaut) ; ffmpeg nécessaire pour les bulles vocales Telegram.
+- Synthèse vocale : Edge TTS, gratuite (voix fr-FR-DeniseNeural, confirmée) ; ffmpeg installé pour les bulles vocales Telegram.
 - Claude : conception, rédaction des fichiers, vérifications.
 
 ## Automatisations
@@ -28,7 +29,7 @@ Retrouver facilement les infos, ne plus rien oublier de ce qui concerne les proc
 
 | Automatisation | Déclencheur | Où elle tourne | État | Pour l'arrêter |
 |---|---|---|---|---|
-| Capture vocale → rangement dans le dépôt | Message ou vocal Telegram à Hermès | Hermès (PC) | en préparation | Dire à Hermès d'arrêter et retirer la consigne de sa mémoire |
+| Capture vocale → rangement dans le dépôt | Message ou vocal Telegram à Hermès | Hermès (PC) | en test (OK sur 3 proches) | Dire à Hermès d'arrêter et retirer la consigne de sa mémoire |
 | Podcast du matin | Tous les jours à 6 h (Europe/Paris) ; test du 2026-09-30 au 2026-10-06 | Hermès (PC) → Telegram (Thibaut seul) | en test | `hermes cron pause 8a70e39d3e7d` |
 | Courses : liste type + rappel | Chaque semaine | Hermès | proposée | Idem |
 | Prospection : fiche d'appel + relance préparée | Jours ouvrés | Hermès + Gmail pro | proposée | Idem |
@@ -57,6 +58,7 @@ Les gains sont des hypothèses, à comparer au temps de maintenance après un mo
 - 2026-09-29 — Capture vocale : OK (Aline, Faustine,Apolline)
 - 2026-09-29 — Podcast d'essai : envoyé
 - 2026-09-29 — Podcast du matin programmé pour un test de 7 jours, fin prévue le 2026-10-06.
+- 2026-09-29 — Planning famille (horaires d'Aline, garde des filles, vacances scolaires) ajouté au contenu du podcast ; à vérifier dès le premier envoi.
 
 ## Blocages
 
@@ -64,5 +66,6 @@ Les gains sont des hypothèses, à comparer au temps de maintenance après un mo
 
 ## Prochaine action
 
-- Thibaut : envoyer la mission n°1 à Hermès, puis lui dicter 2 ou 3 proches pour tester la capture.
-- Claude : vérifier le rangement fait par Hermès, puis préparer le podcast v1.
+- Thibaut : écouter le premier podcast le 2026-09-30 à 6 h, puis noter en une phrase ce qui va et ce qui ne va pas.
+- Claude : vérifier le retour du premier podcast, puis choisir la prochaine automatisation (courses ou prospection).
+- À compléter par Thibaut au fil de l'eau : planning des vacances de Faustine (centre de loisirs, Mamou), autres proches, tailles et goûts.
