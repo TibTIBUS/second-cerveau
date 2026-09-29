@@ -10,3 +10,4 @@ Ajouter chaque nouvelle date comme une ligne à la fin du tableau.
 |---|---|---|---|
 | 06-25 | anniversaire | Aline (personnes/aline.md) | née en 1992 à Saint-Lô |
 | 04-29 | anniversaire | Faustine (personnes/faustine.md) | née en 2021 |
+| 07-18 | anniversaire | Apolline (personnes/apolline.md) | née en 2024 |
