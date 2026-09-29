@@ -5,8 +5,7 @@ Fait : `- [x] ~~Tâche~~ (AAAA-MM-JJ)`, à déplacer dans « Fait » ; vider « 
 
 ## À faire
 
-- [ ] **Envoyer la mission n°1 à Hermès** — second cerveau, échéance 2026-09-30
-- [ ] **Dicter 2 ou 3 proches à Hermès (test de capture)** — second cerveau
+*(Aucune tâche en cours.)*
 
 ## En attente de quelqu'un
 
@@ -16,4 +15,6 @@ Fait : `- [x] ~~Tâche~~ (AAAA-MM-JJ)`, à déplacer dans « Fait » ; vider « 
 
 ## Fait
 
+- [x] ~~Envoyer la mission n°1 à Hermès~~ (2026-09-29)
+- [x] ~~Dicter 2 ou 3 proches à Hermès (test de capture)~~ (2026-09-29)
 - [x] ~~Créer le dépôt second-cerveau~~ (2026-09-29)

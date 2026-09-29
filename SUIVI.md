@@ -29,7 +29,7 @@ Retrouver facilement les infos, ne plus rien oublier de ce qui concerne les proc
 | Automatisation | Déclencheur | Où elle tourne | État | Pour l'arrêter |
 |---|---|---|---|---|
 | Capture vocale → rangement dans le dépôt | Message ou vocal Telegram à Hermès | Hermès (PC) | en préparation | Dire à Hermès d'arrêter et retirer la consigne de sa mémoire |
-| Podcast du matin | Chaque matin (horaire à fixer) | Tâche planifiée Hermès (PC) | proposée | Mettre en pause la tâche planifiée |
+| Podcast du matin | Tous les jours à 6 h (Europe/Paris) ; test du 2026-09-30 au 2026-10-06 | Hermès (PC) → Telegram (Thibaut seul) | en test | `hermes cron pause 8a70e39d3e7d` |
 | Courses : liste type + rappel | Chaque semaine | Hermès | proposée | Idem |
 | Prospection : fiche d'appel + relance préparée | Jours ouvrés | Hermès + Gmail pro | proposée | Idem |
 | Réservations préparées en ligne | À la demande | Hermès | proposée | — |
@@ -54,6 +54,9 @@ Les gains sont des hypothèses, à comparer au temps de maintenance après un mo
 ## Tests
 
 - 2026-09-29 — Squelette du dépôt déposé par Claude.
+- 2026-09-29 — Capture vocale : OK (Aline, Faustine,Apolline)
+- 2026-09-29 — Podcast d'essai : envoyé
+- 2026-09-29 — Podcast du matin programmé pour un test de 7 jours, fin prévue le 2026-10-06.
 
 ## Blocages
 
