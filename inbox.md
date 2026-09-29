@@ -2,5 +2,5 @@
 
 Tout ce qui arrive sans place évidente. À trier à la revue hebdo, puis retirer d'ici une fois rangé.
 Format : `- AAAA-MM-JJ — info (source : vocal Telegram, chat Claude…)`
-- 2026-09-29 — À confirmer : Aline fait du badminton le mardi à 20 h, sauf pendant les vacances scolaires ; son horaire de travail varie selon les semaines : elle ne travaille pas le lundi une semaine, puis pas le mercredi la semaine suivante ; elle finit à 18 h le jeudi, puis à 18 h le samedi ; les autres journées travaillées, elle fait 9 h–19 h 15. Confirmer le cycle exact et où inscrire ces horaires récurrents (agenda) (source : vocal Telegram). La semaine du 2026-09-28, elle ne travaillait pas le lundi.
+- 2026-09-29 — Aline travaille à temps complet selon un cycle de deux semaines : semaine A, repos le lundi et fin à 18 h le jeudi ; semaine B, repos le mercredi et fin à 18 h le samedi. Les autres jours travaillés : 9 h–19 h 15. Semaine du 2026-09-28 : repos lundi, fin jeudi à 18 h. À transférer dans l'agenda (aucun agenda repéré dans le dépôt). Badminton le mardi à 20 h hors vacances scolaires, également à inscrire à l'agenda. (Source : messages Telegram de Thibaut ; horaires précisés le 2026-09-29.)
 
