@@ -1,9 +1,9 @@
 # Aline
 
-- Aussi appelée : Aline
+- Aussi appelée : **Mamour** (surnom que Thibaut lui donne)
 - Lien : épouse de Thibaut
 - Anniversaire et fête : voir `dates.md`
-- Parents : Daniel et Agnès
+- Parents : Daniel (« Papé ») et Agnès (« Mamou ») ; ce sont les grands-parents des filles
 - Sœur : Élise
 - Travail : gérante d'un magasin de décoration Centrakor à La Haye-du-Puits
 

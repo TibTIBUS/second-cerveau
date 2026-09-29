@@ -2,6 +2,8 @@
 
 Source pour le podcast du matin. Informations données par Thibaut le 2026-09-29.
 
+Surnoms : **Mamour** = Aline ; **Mamou** = Agnès, la maman d'Aline ; **Papé** = Daniel, le papa d'Aline. Dans le podcast, dire « Aline » ou « Mamou » selon la personne, sans confusion.
+
 ## Horaires d'Aline (temps complet, cycle de 2 semaines)
 
 Semaine de référence : la **semaine A commence le lundi 2026-09-28**. Ensuite B, A, B… (semaine B = lundi 2026-10-05, semaine A = lundi 2026-10-12, etc.).
@@ -17,9 +19,11 @@ Les jours non listés (par exemple le dimanche) : pas de travail, sauf indicatio
 
 **École** : lundi, mardi, jeudi et vendredi, 8 h 30–12 h et 13 h 30–16 h 30. Pas d'école le mercredi, le samedi et le dimanche, ni pendant les vacances et jours sans classe ci-dessous.
 
-**Natation** : mercredi matin, accompagnée par Aline quand elle est en repos, sinon par sa grand-mère Agnès (« Mamour »).
+**Natation** : mercredi matin, accompagnée par Aline quand elle est en repos, sinon par sa grand-mère Agnès (« Mamou »).
 
-**Handball** : vendredi de 17 h 15 à 18 h 15. Thibaut l'emmène, ainsi que ses copines **Emma** et **Soline**.
+**Handball** : vendredi de 17 h 15 à 18 h 15, **hors vacances scolaires** (pas de hand pendant les vacances). Thibaut l'emmène, ainsi que ses copines **Emma** et **Soline**.
+
+**Pendant les vacances** : en alternance au centre de loisirs et chez sa grand-mère Agnès (« Mamou »). Le détail des jours n'est pas encore connu : Thibaut le donnera au fur et à mesure.
 
 ## Apolline
 
@@ -51,11 +55,10 @@ Une phrase courte pour les horaires et la garde, par exemple :
 Cas particuliers :
 - Aline en repos : « Aline est en repos. Apolline est à la maison. »
 - Mercredi : ajouter qui accompagne Faustine à la natation.
-- **Vendredi : « Hand de Faustine à 17 h 15, tu emmènes aussi Emma et Soline. »**
-- Jour de vacances ou sans classe : dire que Faustine n'a pas école. La veille de la reprise, le rappeler.
+- **Vendredi hors vacances : « Hand de Faustine à 17 h 15, tu emmènes aussi Emma et Soline. »**
+- Jour de vacances ou sans classe : dire que Faustine n'a pas école, et ne pas parler du hand. Si le détail du jour est inconnu (centre de loisirs ou Mamou), dire « centre de loisirs ou chez Mamou, à préciser ». La veille de la reprise, la rappeler.
 - Si une info manque ou en cas de doute : le dire, ne pas deviner.
 
 ## À confirmer par Thibaut
 
-- Pendant les vacances, qui garde Faustine les jours où Aline travaille ?
-- Le handball a-t-il lieu pendant les vacances scolaires ?
+- Pendant les vacances, quels jours Faustine est au centre de loisirs ou chez Mamou, et qui la garde quand Aline travaille (le détail arrivera plus tard).
