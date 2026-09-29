@@ -1,19 +1,19 @@
 # Podcast du matin — réglages
 
-État : **proposé**, rien n'est programmé. Version 0, à valider par Thibaut.
+État : **essai validé par Thibaut** (contenu OK), pas encore programmé. Horaire à fixer.
 
 ## Format
 
-- Vocal Telegram en français (voix fr-FR), 5 min maximum, avec le texte en dessous.
-- Jours et heure : proposition du lundi au vendredi à 6 h 30 (à confirmer).
+- Vocal Telegram en français (voix fr-FR-DeniseNeural), 5 min maximum, avec le texte en dessous.
+- Jours et heure : à confirmer par Thibaut.
 - Ton direct, sans remplissage. Une rubrique vide est sautée.
 
 ## Contenu, dans cet ordre
 
 1. **Perso** : anniversaires et fêtes du jour (`dates.md`), puis ceux des 7 prochains jours avec une idée cadeau tirée de la fiche ; agenda famille du jour ; **rappels de la maison** (voir ci-dessous).
 2. **Pro** : agenda Localia du jour ; tâches dues ou en retard (`taches.md`).
-3. **Sport** : F1 ; football : équipe de France, Olympique de Marseille, Stade Malherbe de Caen (résultats de la veille, prochain match, actu importante). Endurance : à confirmer par Thibaut (retirée dans l'essai n°2).
-4. **Actus** : 3 titres généraux, puis 3 infos tech et IA (essai n°2 ; à confirmer pour la version définitive).
+3. **Sport** (version de Thibaut, 2026-09-29) : F1 ; football : équipe de France, Olympique de Marseille, Stade Malherbe de Caen (résultats de la veille, prochain match, actu importante).
+4. **Actus** : 3 titres généraux, puis 3 infos tech et IA.
 
 ## Rappels de la maison (hebdomadaires)
 
