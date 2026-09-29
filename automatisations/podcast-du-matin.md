@@ -10,7 +10,7 @@
 
 ## Contenu, dans cet ordre
 
-1. **Perso** : anniversaires et fêtes du jour (`dates.md`), puis ceux des 7 prochains jours avec une idée cadeau tirée de la fiche ; agenda famille du jour ; **rappels de la maison** (voir ci-dessous).
+1. **Perso** : anniversaires et fêtes du jour (`dates.md`), puis ceux des 7 prochains jours avec une idée cadeau tirée de la fiche ; **planning famille du jour** : horaires d'Aline et où sont les filles, nounou ou école (`maison/planning-famille.md`) ; agenda famille du jour ; **rappels de la maison** (voir ci-dessous).
 2. **Pro** : agenda Localia du jour ; tâches dues ou en retard (`taches.md`).
 3. **Sport** (version de Thibaut) : F1 ; football : équipe de France, Olympique de Marseille, Stade Malherbe de Caen (résultats de la veille, prochain match, actu importante).
 4. **Espace** : dernières infos SpaceX et du secteur spatial, **seulement si elles sont importantes** (lancement, essai majeur, échec, annonce ou décision qui change la donne). Sinon, rubrique sautée, sans le dire.
@@ -26,7 +26,7 @@ Source : `maison/menage.md`.
 
 ## Sources
 
-- Ce dépôt : `dates.md`, `taches.md`, `personnes/`, `maison/menage.md`.
+- Ce dépôt : `dates.md`, `taches.md`, `personnes/`, `maison/menage.md`, `maison/planning-famille.md`.
 - Agendas : liens iCal privés, gardés dans la configuration de Hermès, **jamais dans ce dépôt**.
 - Actus, sport, espace : flux RSS ou recherche web à choisir et tester. Citer la source de chaque info importante.
 
