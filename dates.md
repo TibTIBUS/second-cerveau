@@ -9,4 +9,4 @@ Ajouter chaque nouvelle date comme une ligne à la fin du tableau.
 | Date (MM-JJ) | Type | Qui / quoi | Détail |
 |---|---|---|---|
 | 06-25 | anniversaire | Aline (personnes/aline.md) | née en 1992 à Saint-Lô |
-| 04-18 | anniversaire | Faustine (personnes/faustine.md) | née en 2021 |
+| 04-29 | anniversaire | Faustine (personnes/faustine.md) | née en 2021 |
