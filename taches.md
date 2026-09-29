@@ -5,7 +5,7 @@ Fait : `- [x] ~~Tâche~~ (AAAA-MM-JJ)`, à déplacer dans « Fait » ; vider « 
 
 ## À faire
 
-- [ ] **Vérifier ma taille de pantalon (importante)** — perso, échéance à préciser
+- [ ] **Vérifier ma taille de pantalon (importante)** — perso, rappel 2026-09-30 à 07 h (Europe/Paris)
 
 ## En attente de quelqu'un
 

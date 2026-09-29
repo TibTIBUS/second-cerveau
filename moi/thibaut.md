@@ -17,6 +17,7 @@
 
 - Ce qui m'anime en ce moment : ma famille et Localia
 - 2027 : obtenir le permis moto
+- Objectif : acheter une moto
 
 ## Sport
 
