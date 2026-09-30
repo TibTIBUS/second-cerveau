@@ -4,40 +4,67 @@ Source pour le podcast du matin. Informations données par Thibaut le 2026-09-29
 
 Surnoms : **Mamour** = Aline ; **Mamou** = Agnès, la maman d'Aline ; **Papé** = Daniel, le papa d'Aline. Dans le podcast, dire « Aline » ou « Mamou » selon la personne, sans confusion.
 
-## Résumé par jour de la semaine (hors vacances et jours sans classe)
+## Méthode en 3 étapes (ne rien deviner)
 
-**Lire ce tableau en premier, sans le recalculer.** Le jour de la semaine se vérifie avec la date du jour.
+1. **Trouver la semaine** de la date du jour dans le calendrier A/B ci-dessous (lundi de la semaine → A ou B).
+2. **Lire la ligne** « semaine A » ou « semaine B » du tableau de la semaine, au jour de la semaine voulu.
+3. **Vérifier les exceptions** : vacances scolaires, jours sans classe, congés d'Aline dans `dates.md`. Elles priment sur le tableau.
 
-| Jour | Faustine | Autres |
-|---|---|---|
-| Lundi | **École** 8 h 30–12 h, 13 h 30–16 h 30 | |
-| Mardi | **École** 8 h 30–12 h, 13 h 30–16 h 30 | Aline : badminton à 20 h |
-| **Mercredi** | **PAS D'ÉCOLE.** Natation le matin, accompagnée par Aline si elle est en repos, sinon par Mamou | |
-| Jeudi | **École** 8 h 30–12 h, 13 h 30–16 h 30 | Ménage : la femme de ménage passe de 14 h à 17 h 30 |
-| Vendredi | **École** 8 h 30–12 h, 13 h 30–16 h 30, puis **hand 17 h 15–18 h 15** (Thibaut emmène aussi Emma et Soline) | |
-| Samedi | Pas d'école | Apolline à la maison avec Thibaut |
-| Dimanche | Pas d'école | Apolline à la maison |
+## Calendrier des semaines A/B
 
-Apolline : chez Séverine les jours de semaine (lundi à vendredi) où Aline travaille, à la maison quand Aline est en repos.
+Le lundi de chaque semaine : la semaine alterne A, B, A, B…
 
-## Horaires d'Aline (temps complet, cycle de 2 semaines)
+| Lundi de la semaine | Semaine |
+|---|---|
+| 2026-09-28 | A |
+| 2026-10-05 | B |
+| 2026-10-12 | A |
+| 2026-10-19 | B |
+| 2026-10-26 | A |
+| 2026-11-02 | B |
+| 2026-11-09 | A |
+| 2026-11-16 | B |
+| 2026-11-23 | A |
+| 2026-11-30 | B |
+| 2026-12-07 | A |
+| 2026-12-14 | B |
+| 2026-12-21 | A |
+| 2026-12-28 | B |
+| 2027-01-04 | A |
 
-Semaine de référence : la **semaine A commence le lundi 2026-09-28**. Ensuite B, A, B… (semaine B = lundi 2026-10-05, semaine A = lundi 2026-10-12, etc.).
+Au-delà : continuer l'alternance (deux semaines de calendrier par cycle, A les semaines dont le lundi est un multiple pair de 7 jours après le 2026-09-28).
 
-| | Repos | Fin à 18 h | Autres jours travaillés |
+## Semaine A : jour par jour (hors vacances et jours sans classe)
+
+| Jour | Aline | Apolline | Faustine |
 |---|---|---|---|
-| Semaine A | lundi | jeudi | 9 h – 19 h 15 |
-| Semaine B | mercredi | samedi | 9 h – 19 h 15 |
+| Lundi | **En repos** | À la maison | École 8 h 30–12 h, 13 h 30–16 h 30 |
+| Mardi | Travaille 9 h–19 h 15 ; badminton à 20 h | Chez Séverine | École 8 h 30–12 h, 13 h 30–16 h 30 |
+| Mercredi | Travaille 9 h–19 h 15 | Chez Séverine | **Pas d'école.** Natation le matin, **accompagnée par Mamou** |
+| Jeudi | Travaille 9 h–**18 h** | Chez Séverine | École 8 h 30–12 h, 13 h 30–16 h 30. Ménage : passage de 14 h à 17 h 30 |
+| Vendredi | Travaille 9 h–19 h 15 | Chez Séverine | École 8 h 30–12 h, 13 h 30–16 h 30, puis **hand 17 h 15–18 h 15** (Thibaut emmène aussi Emma et Soline) |
+| Samedi | Horaires non précisés : ne pas les annoncer | À la maison avec Thibaut | Pas d'école |
+| Dimanche | Pas de travail | À la maison | Pas d'école |
 
-Les jours non listés (par exemple le dimanche) : pas de travail, sauf indication contraire de Thibaut. Congés, jours fériés ou changement de planning : notés dans `dates.md` (type « échéance »), ils priment sur ce tableau.
+## Semaine B : jour par jour (hors vacances et jours sans classe)
+
+| Jour | Aline | Apolline | Faustine |
+|---|---|---|---|
+| Lundi | Travaille 9 h–19 h 15 | Chez Séverine | École 8 h 30–12 h, 13 h 30–16 h 30 |
+| Mardi | Travaille 9 h–19 h 15 ; badminton à 20 h | Chez Séverine | École 8 h 30–12 h, 13 h 30–16 h 30 |
+| Mercredi | **En repos** | À la maison | **Pas d'école.** Natation le matin, **accompagnée par Aline** |
+| Jeudi | Travaille 9 h–19 h 15 | Chez Séverine | École 8 h 30–12 h, 13 h 30–16 h 30. Ménage : passage de 14 h à 17 h 30 |
+| Vendredi | Travaille 9 h–19 h 15 | Chez Séverine | École 8 h 30–12 h, 13 h 30–16 h 30, puis **hand 17 h 15–18 h 15** (Thibaut emmène aussi Emma et Soline) |
+| Samedi | Travaille 9 h–**18 h** | À la maison avec Thibaut | Pas d'école |
+| Dimanche | Pas de travail | À la maison | Pas d'école |
+
+Le badminton du mardi n'a pas lieu pendant les vacances scolaires.
 
 ## Faustine : détails
 
 **École** : lundi, mardi, jeudi et vendredi uniquement. Jamais le mercredi.
 
-**Natation** : mercredi matin, accompagnée par Aline quand elle est en repos, sinon par sa grand-mère Agnès (« Mamou »).
-
-**Handball** : vendredi de 17 h 15 à 18 h 15, **hors vacances scolaires** (pas de hand pendant les vacances). Thibaut l'emmène, ainsi que ses copines **Emma** et **Soline**.
+**Handball** : uniquement hors vacances scolaires (pas de hand pendant les vacances). Thibaut l'emmène, ainsi que ses copines **Emma** et **Soline**.
 
 **Pendant les vacances** : en alternance au centre de loisirs et chez sa grand-mère Agnès (« Mamou »). Le détail des jours n'est pas encore connu : Thibaut le donnera au fur et à mesure.
 
@@ -59,18 +86,22 @@ Jours sans classe hors vacances : lundi 2027-03-29 (lundi de Pâques), jeudi 202
 
 ## Ce que le podcast dit chaque matin
 
-Une phrase courte pour les horaires et la garde, par exemple (un mardi) :
+Une ou deux phrases courtes, tirées du tableau du jour. Exemples :
 
 > Aline travaille aujourd'hui de 9 h à 19 h 15. Apolline est chez Séverine, Faustine à l'école de 8 h 30 à 16 h 30.
 
-Cas particuliers :
-- Aline en repos : « Aline est en repos. Apolline est à la maison. »
-- **Mercredi : « Faustine n'a pas école, elle a natation ce matin, avec Aline (ou avec Mamou). »**
-- **Vendredi hors vacances : « Hand de Faustine à 17 h 15, tu emmènes aussi Emma et Soline. »**
+> Aline est en repos. Apolline est à la maison. (jour de repos)
+
+> Faustine n'a pas école, elle a natation ce matin avec Mamou. (mercredi, semaine A)
+
+Règles :
+- Dire la personne exacte inscrite dans le tableau du jour (Aline ou Mamou pour la natation). Ne jamais écrire « Aline ou Mamou ».
+- Vendredi hors vacances : « Hand de Faustine à 17 h 15, tu emmènes aussi Emma et Soline. »
 - Jeudi : rappeler le passage de la femme de ménage l'après-midi.
-- Jour de vacances ou sans classe : dire que Faustine n'a pas école, et ne pas parler du hand. Si le détail du jour est inconnu (centre de loisirs ou Mamou), dire « centre de loisirs ou chez Mamou, à préciser ». La veille de la reprise, la rappeler.
-- Si une info manque ou en cas de doute : le dire, ne pas deviner.
+- Jour de vacances ou sans classe : dire que Faustine n'a pas école, ne pas parler du hand. Si le détail du jour est inconnu : « centre de loisirs ou chez Mamou ». La veille de la reprise, la rappeler.
+- Si une info manque : ne pas la dire (règle du silence du podcast), ne pas deviner.
 
 ## À confirmer par Thibaut
 
-- Pendant les vacances, quels jours Faustine est au centre de loisirs ou chez Mamou, et qui la garde quand Aline travaille (le détail arrivera plus tard).
+- Pendant les vacances, quels jours Faustine est au centre de loisirs ou chez Mamou, et qui la garde quand Aline travaille.
+- Les horaires d'Aline le samedi de la semaine A.
