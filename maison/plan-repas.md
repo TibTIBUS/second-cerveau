@@ -4,14 +4,30 @@ Thème : 3 recettes par semaine, courses au Drive **Intermarché de Lessay**, re
 
 ## Calendrier
 
-- **Dimanche vers 18 h** : Hermès envoie à Thibaut les 3 recettes proposées et la liste à vérifier.
+- **Dimanche vers 18 h** : Hermès envoie à Thibaut les recettes proposées, la question des restes du week-end et la liste à vérifier.
 - **Dimanche soir** : Thibaut répond ; Hermès envoie la liste finale par rayon ; Thibaut passe la commande au Drive (créneau et paiement toujours faits par Thibaut).
 - **Lundi 16 h–17 h** : retrait au Drive.
 
+## Restes du week-end (règle de Thibaut, 2026-09-30)
+
+Le **premier repas de la semaine** (dîner du lundi + déjeuner du mardi) est cuisiné avec les **restes du week-end** s'il y en a. S'il n'y en a pas, c'est une recette normale.
+
+- Le message du dimanche demande : « Restes du week-end ? » (quoi, quantité approximative, jour où le plat a été cuisiné).
+- Hermès propose **3 recettes normales** : deux pour les repas 2 et 3, et une **recette de secours** qui devient le repas 1 s'il n'y a pas de restes.
+- **S'il y a des restes** : Hermès crée une recette avec ces restes (dîner du lundi pour 4 personnes + déjeuner du mardi pour 2 adultes), avec les étapes et les quantités. Si les restes ne suffisent pas pour 4 + 2 portions, il propose les compléments à acheter ou pris dans les placards. Il ne demande l'inventaire que pour les ingrédients à compléter et pour les deux autres recettes. La recette de secours n'est pas comptée dans l'historique.
+- **S'il n'y a pas de restes** : la recette de secours est le repas 1, et l'inventaire porte sur les 3 recettes.
+- La recette de restes est ajoutée à `maison/recettes.md` seulement si Thibaut dit « garde-la ».
+
+**Sécurité des restes (règles strictes)**
+- N'utiliser que des restes **cuisinés le samedi ou le dimanche** et gardés au réfrigérateur. Au-delà de 2 jours avant le lundi, ou au moindre doute, ne pas les utiliser : passer à la recette de secours.
+- Le riz et les pâtes cuits doivent avoir été mis au frais rapidement après le repas.
+- Le plat du lundi est cuit à cœur, bien chaud. La portion du mardi est mise au frais dès le lundi soir et **réchauffée une seule fois**, bien chaude à cœur.
+- Hermes ne décide jamais à la place de Thibaut qu'un reste est bon : c'est Thibaut qui confirme.
+
 ## Déroulé (Hermès)
 
-1. **Proposer 3 recettes** de `maison/recettes.md`, sans reprendre celles des 2 dernières semaines (voir l'historique ci-dessous), en variant les types (une viande, un gratin, un plat de féculents…). Thibaut valide ou remplace.
-2. **Liste à vérifier** : les ingrédients des 3 recettes retenues plus les produits de base, groupés par lieu : frigo, congélateur, placards. **Additionner d'abord les ingrédients communs** à plusieurs recettes (ex. oignon, fromage râpé) et demander le total (« 2 oignons », « 200 g de fromage râpé »), pas recette par recette. Thibaut répond « ok » ou « manque » pour chaque ligne (les quantités partielles sont précisées). Pas de contrôle au-delà de ces lignes.
+1. **Proposer les recettes** de `maison/recettes.md`, sans reprendre celles des 2 dernières semaines (voir l'historique ci-dessous), en variant les types (une viande, un gratin, un plat de féculents…). Poser la question des restes. Thibaut valide ou remplace.
+2. **Liste à vérifier** : les ingrédients des recettes retenues plus les produits de base, groupés par lieu : frigo, congélateur, placards. **Additionner d'abord les ingrédients communs** à plusieurs recettes (ex. oignon, fromage râpé) et demander le total (« 2 oignons », « 200 g de fromage râpé »), pas recette par recette. Thibaut répond « ok » ou « manque » pour chaque ligne (les quantités partielles sont précisées). Pas de contrôle au-delà de ces lignes.
 3. **Liste finale** : ce qui manque, par rayon. Pour chaque ligne : la quantité nécessaire, **l'unité d'achat** (par exemple « 1 sachet de 400 g » ou « 1 boîte de 5 sachets »), le produit Intermarché correspondant (n° de `maison/courses.md`) quand il existe, et « non listé » sinon. Ajouter le contenu de la « Liste en cours » de `maison/courses.md`.
 4. **Mise à jour de l'historique** ci-dessous après validation explicite par Thibaut.
 
