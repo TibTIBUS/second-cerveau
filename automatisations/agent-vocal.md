@@ -2,7 +2,7 @@
 
 Objectif : un agent qui téléphone pour Thibaut, en perso (rendez-vous médical, restaurant, pizza) puis en pro (prospection Localia). Il n'aime pas téléphoner.
 
-Statut au 2026-09-30 : compte ElevenLabs créé (offre gratuite). Agent de test « Assistant de Thibaut - test » créé et testé au micro : concluant. Compte Twilio passé en payant (solde de 20 $, recharge automatique désactivée), mobile de Thibaut vérifié comme numéro appelant et importé dans ElevenLabs (numéro « Perso Tib », appels sortants seulement). Premier appel de test vers le numéro pro de Thibaut : échec, erreur Twilio « Primary compliance profile is not approved » (vérification d'identité Trust Hub requise). Étape 3 bloquée en attendant l'approbation.
+Statut au 2026-09-30 : compte ElevenLabs (offre gratuite), agent de test « Assistant de Thibaut - test » (voix Clément, français), compte Twilio payant (solde de 20 $, recharge automatique désactivée), mobile de Thibaut vérifié comme numéro appelant (numéro « Perso Tib », appels sortants seulement), profil de conformité Twilio (Trust Hub) approuvé. Appel de test vers le numéro pro de Thibaut réussi : voix très bien au téléphone, aucun délai gênant, comprend bien les interruptions, se présente comme l'assistant de Thibaut.
 
 ## Règles
 
@@ -10,9 +10,11 @@ Statut au 2026-09-30 : compte ElevenLabs créé (offre gratuite). Agent de test 
 - Jamais de clé secrète, mot de passe ni pièce d'identité dans le chat ou Telegram : saisie par Thibaut lui-même, en local.
 - L'agent ne donne jamais de numéro de carte bancaire par téléphone.
 - Rendez-vous médical : uniquement nom, téléphone et disponibilités, aucun détail de santé.
-- L'agent se présente comme l'assistant qui appelle pour le compte de Thibaut.
+- L'agent se présente comme l'assistant IA qui appelle pour le compte de Thibaut, et répond honnêtement s'il est interrogé.
 - Une seule étape à la fois. Ne passer à la suivante que quand la précédente est validée par Thibaut.
-- L'agent Chrome ne touche jamais aux identifiants Twilio ni au dossier d'identité Trust Hub.
+- Chaque appel réel est confirmé par Thibaut avant de partir (restaurant, date, heure, nombre de personnes).
+- L'agent Chrome ne touche jamais aux identifiants Twilio ni aux données d'identité.
+- Répartition : les agents (Chrome, Hermès) font tout ; Thibaut ne saisit que ce qui touche à un numéro, une identité ou une donnée personnelle.
 
 ## Coûts (relevés le 2026-09-30, à revérifier avant de payer)
 
@@ -25,23 +27,18 @@ Statut au 2026-09-30 : compte ElevenLabs créé (offre gratuite). Agent de test 
 
 ## Numéro d'appel
 
-- Retenu : le mobile de Thibaut vérifié dans Twilio (« Verified Caller ID »), appels sortants seulement. Le destinataire voit ce numéro. Ne pas appeler ce même numéro pour les tests.
-- Option B (plus tard) : acheter un numéro français chez Twilio, avec un « Regulatory Bundle » (pièce d'identité + justificatif de domicile local, pas de boîte postale, validation jusqu'à 2 jours ouvrés).
-
-## Blocage en cours : Trust Hub (Twilio)
-
-- Erreur reçue : « Primary compliance profile is not approved... complete the KYC process in Trust Hub ».
-- Cause : Twilio exige un profil de conformité principal approuvé pour appeler des numéros non vérifiés.
-- À faire par Thibaut lui-même : Twilio, Trust Hub, Profiles, créer le profil principal (Individual pour un entrepreneur individuel, ou Business si Localia le permet). Pièce d'identité et adresse à donner à Twilio uniquement. Examen jusqu'à 48 h.
-- Tant que non approuvé : possible d'appeler seulement des numéros ajoutés comme « Verified Caller IDs » dans Twilio (test).
+- Retenu : le mobile de Thibaut vérifié dans Twilio (« Verified Caller ID »), appels sortants seulement. Le destinataire voit ce numéro et rappelle Thibaut. Ne pas appeler ce même numéro pour les tests.
+- Twilio exige un profil de conformité approuvé pour tout appel sortant (même vers un numéro vérifié) : fait.
+- Option B (plus tard) : acheter un numéro français chez Twilio, avec un « Regulatory Bundle ».
 
 ## Étapes
 
 - [x] 1. Créer un compte ElevenLabs (offre gratuite).
 - [x] 2. Agent de test créé et essayé au micro dans le navigateur : concluant.
-- [ ] 3. Twilio relié (fait) + profil Trust Hub approuvé (en attente) + appel de test vers le numéro pro de Thibaut, puis premier vrai usage : réserver une table au restaurant.
+- [x] 3a. Twilio relié, profil Trust Hub approuvé, appel de test réussi vers le numéro pro de Thibaut.
+- [ ] 3b. Premier vrai usage : réserver une table au restaurant (agent « réservations » à créer, mission donnée à chaque appel, confirmation de Thibaut avant l'appel).
 - [ ] 4. Rendez-vous médical (informations minimales).
-- [ ] 5. Lien avec Hermès : Thibaut demande, Hermès lance l'appel.
+- [ ] 5. Lien avec Hermès : Thibaut demande sur Telegram, Hermès confirme puis lance l'appel, et renvoie le résultat. Clé ElevenLabs saisie par Thibaut en local uniquement.
 - [ ] 6. Prospection Localia, en dernier, après vérification juridique.
 
 ## Point juridique à vérifier avant l'étape 6
