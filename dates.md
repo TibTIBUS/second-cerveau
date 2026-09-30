@@ -19,8 +19,8 @@ Ajouter chaque nouvelle date comme une ligne à la fin du tableau.
 | 10-15 | anniversaire | Fabian, second frère de Thibaut | né en 1994 |
 | 05-27 | anniversaire | Mégane, compagne de Fabian | née en 1995 |
 | 03-15 | anniversaire | Paloma, fille de Fabian et Mégane | née en 2026 |
-| 09-01 | anniversaire | Agnès, mère de Thibaut (Mamou) | née en 1957 |
-| 03-31 | anniversaire | Daniel, père de Thibaut (Papé) | né en 1952 |
+| 09-01 | anniversaire | Agnès (Mamou), mère d'Aline | née en 1957 ; lien à confirmer par Thibaut |
+| 03-31 | anniversaire | Daniel (Papé), père d'Aline | né en 1952 ; lien à confirmer par Thibaut |
 | 08-07 | anniversaire | Élise, sœur d'Aline | née en 1987 |
 | 03-14 | anniversaire | Sébastien, compagnon d'Élise | né en 1985 |
 | 07-21 | anniversaire | Salomé, fille d'Élise et Sébastien | née en 2016 |
