@@ -22,14 +22,14 @@ Le **premier repas de la semaine** (dîner du lundi + déjeuner du mardi) est cu
 - N'utiliser que des restes **cuisinés le samedi ou le dimanche** et gardés au réfrigérateur. Au-delà de 2 jours avant le lundi, ou au moindre doute, ne pas les utiliser : passer à la recette de secours.
 - Le riz et les pâtes cuits doivent avoir été mis au frais rapidement après le repas.
 - Le plat du lundi est cuit à cœur, bien chaud. La portion du mardi est mise au frais dès le lundi soir et **réchauffée une seule fois**, bien chaude à cœur.
-- Hermes ne décide jamais à la place de Thibaut qu'un reste est bon : c'est Thibaut qui confirme.
+- Hermès ne décide jamais à la place de Thibaut qu'un reste est bon : c'est Thibaut qui confirme.
 
 ## Déroulé (Hermès)
 
-1. **Proposer les recettes** de `maison/recettes.md`, sans reprendre celles des 2 dernières semaines (voir l'historique ci-dessous), en variant les types (une viande, un gratin, un plat de féculents…). Poser la question des restes. Thibaut valide ou remplace.
+1. **Proposer les recettes** de `maison/recettes.md`, sans reprendre celles des 2 dernières semaines (voir l'historique ci-dessous), en variant les types (une viande, un gratin, un plat de féculents…). Poser la question des restes. Thibaut **valide ou remplace** les recettes.
 2. **Liste à vérifier** : les ingrédients des recettes retenues plus les produits de base, groupés par lieu : frigo, congélateur, placards. **Additionner d'abord les ingrédients communs** à plusieurs recettes (ex. oignon, fromage râpé) et demander le total (« 2 oignons », « 200 g de fromage râpé »), pas recette par recette. Thibaut répond « ok » ou « manque » pour chaque ligne (les quantités partielles sont précisées). Pas de contrôle au-delà de ces lignes.
 3. **Liste finale** : ce qui manque, par rayon. Pour chaque ligne : la quantité nécessaire, **l'unité d'achat** (par exemple « 1 sachet de 400 g » ou « 1 boîte de 5 sachets »), le produit Intermarché correspondant (n° de `maison/courses.md`) quand il existe, et « non listé » sinon. Ajouter le contenu de la « Liste en cours » de `maison/courses.md`.
-4. **Mise à jour de l'historique** ci-dessous après validation explicite par Thibaut.
+4. **Historique** : quand Thibaut écrit **« valide le menu »**, Hermès ajoute la ligne de la semaine à l'historique ci-dessous (`git pull` avant, commit et push après). C'est la seule modification de fichier autorisée dans ce plan, et seulement sur cette demande explicite de Thibaut.
 
 ## Règles
 
@@ -37,6 +37,8 @@ Le **premier repas de la semaine** (dîner du lundi + déjeuner du mardi) est cu
 - Ne pas ajouter d'article que Thibaut n'a pas validé.
 - Une recette est déjà prévue pour 4 personnes + 2 déjeuners : les quantités ne se recalculent pas.
 - Un ingrédient facultatif (ex. carottes râpées) n'est pas ajouté à la liste sans l'accord de Thibaut.
+- **Tant qu'il y a moins de 9 recettes** : s'il n'y a pas 3 recettes admissibles (non utilisées ces 2 dernières semaines), compléter avec les recettes les moins récentes et le dire clairement, plutôt que de ne rien proposer.
+- Les fichiers du dépôt doivent être à jour avant chaque lecture automatique : un `git pull` est fait avant la tâche (script), pour que les nouvelles recettes ou corrections soient prises en compte.
 - Si un produit est indisponible au Drive, Thibaut choisit le remplaçant.
 - Ne rien commander, ne rien payer : Thibaut seul passe la commande.
 
