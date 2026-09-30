@@ -1,6 +1,6 @@
 # Recettes de la famille
 
-Sources : tableaux de Thibaut (Recettes_famille.xlsx et Recettes_famille_4_supplementaires.xlsx, 2026-09-30). Chaque recette est **déjà prévue pour 4 personnes + 2 déjeuners** (le dîner, puis le déjeuner de deux adultes le lendemain). Ne pas recalculer les quantités.
+Sources : tableaux de Thibaut (Recettes_famille.xlsx, Recettes_famille_4_supplementaires.xlsx et 5_nouvelles_recettes_famille.xlsx, 2026-09-30). Chaque recette est **déjà prévue pour 4 personnes + 2 déjeuners** (le dîner, puis le déjeuner de deux adultes le lendemain). Ne pas recalculer les quantités.
 
 Correspondance avec les produits Intermarché : voir `maison/courses.md` (n° entre parenthèses). « Non listé » = pas dans les favoris, à chercher au Drive.
 
@@ -228,6 +228,159 @@ Correspondance avec les produits Intermarché : voir `maison/courses.md` (n° en
 **Cuisson** : boulettes crues congelées à l'Airfryer, 180 °C, environ 15 à 18 min, cuisson à cœur à vérifier.
 
 **Restes** : garder 2 portions 2 à 3 jours au réfrigérateur, réchauffer boulettes et sauce ensemble. Congélation : oui.
+
+## Lasagnes à la ratatouille
+
+- Catégorie : lasagnes / végétarien · Temps total : 25 min de préparation + 30 min de cuisson
+- Matériel : four, plat à gratin, cuillère
+- Accompagnement : salade verte en option
+
+**Ingrédients**
+
+| Ingrédient | Quantité | Produit Intermarché |
+|---|---|---|
+| Feuilles de lasagnes | 9 à 12 feuilles | Non listé |
+| Ratatouille | 700 g | Non listé |
+| Béchamel | 50 cl | Non listé |
+| Fromage râpé | 150 g | Possible : Grana Padano râpé 100 g (n° 4), 2 paquets, à confirmer |
+| Herbes de Provence (option) | | Placard |
+| Sel, poivre | | Placard |
+
+**Préparation**
+1. Préchauffer le four à 200 °C.
+2. Mettre une fine couche de ratatouille au fond du plat.
+3. Ajouter une couche de feuilles de lasagnes.
+4. Ajouter ratatouille puis un peu de béchamel.
+5. Répéter les couches jusqu'à épuisement.
+6. Terminer par béchamel et fromage râpé.
+
+**Cuisson** : four à 200 °C pendant environ 25 à 30 min. Vérifier que les feuilles de lasagnes sont tendres.
+
+**Restes** : garder 2 portions au réfrigérateur pour le lendemain, très bonnes réchauffées au micro-ondes. Congélation : oui, très bien une fois cuites et refroidies.
+
+## Hachis parmentier express bœuf-carottes
+
+- Catégorie : bœuf / purée · Temps total : 25 à 30 min
+- Matériel : poêle, casserole ou micro-ondes, plat à gratin, four
+- Accompagnement : salade verte en option
+
+**Ingrédients**
+
+| Ingrédient | Quantité | Produit Intermarché |
+|---|---|---|
+| Bœuf haché | 500 à 600 g | Viande hachée Jean Rozé pur bœuf, barquette de 350 g (n° 9) : 2 barquettes |
+| Purée Mousline | 1 quantité pour 6 personnes | Non listé |
+| Carottes | 3 pièces | Non listé (les carottes râpées n° 34 ne conviennent pas : la recette demande des carottes entières) |
+| Oignon | 1 pièce | Non listé |
+| Fromage râpé | 100 g | Possible : Grana Padano râpé 100 g (n° 4), à confirmer |
+| Huile | 1 filet | Placard |
+| Sel, poivre | | Placard |
+
+**Préparation**
+1. Émincer l'oignon et couper ou râper finement les carottes.
+2. Faire revenir oignon et carottes avec un filet d'huile.
+3. Ajouter le bœuf haché et cuire en l'émiettant.
+4. Préparer la purée selon le paquet.
+5. Mettre la viande et les légumes au fond du plat.
+6. Recouvrir de purée puis de fromage.
+
+**Cuisson** : four à 200 °C environ 10 min, puis quelques minutes sous le grill si nécessaire.
+
+**Restes** : garder 2 portions au réfrigérateur, réchauffer au micro-ondes ou au four. Congélation : oui, une fois cuit et refroidi.
+
+## Pâtes crémeuses jambon, petits pois & fromage
+
+- Catégorie : pâtes · Temps total : 20 min
+- Matériel : grande casserole, passoire, plaques
+- Accompagnement : plat complet
+
+**Ingrédients**
+
+| Ingrédient | Quantité | Produit Intermarché |
+|---|---|---|
+| Pâtes | 500 g | Possible : Panzani fusilli 500 g (n° 21), Fiorini spaghetti blé complet (n° 22) ou torti blé complet (n° 23), à confirmer |
+| Jambon en dés | 250 g | Dés de jambon cuit Monique Ranou, sachet de 400 g (n° 14) : il en reste 150 g |
+| Petits pois surgelés | 300 g | Non listé |
+| Crème liquide | 20 cl | Crème fluide Top Budget, 3 briques de 20 cl (n° 8) : 1 brique |
+| Fromage râpé | 80 g | Possible : Grana Padano râpé 100 g (n° 4), à confirmer |
+| Sel, poivre | | Placard |
+
+**Préparation**
+1. Faire cuire les pâtes.
+2. Ajouter les petits pois dans l'eau des pâtes pendant les dernières minutes de cuisson.
+3. Égoutter.
+4. Remettre dans la casserole.
+5. Ajouter jambon, crème et fromage.
+6. Mélanger à feu doux jusqu'à ce que le fromage fonde.
+7. Assaisonner légèrement.
+
+**Cuisson** : pâtes selon le paquet, petits pois dans les dernières minutes, sauce 2 à 3 min à feu doux.
+
+**Restes** : garder 2 portions au réfrigérateur, ajouter un petit trait de lait ou d'eau au réchauffage si nécessaire. Congélation : oui, mais meilleures fraîches ou réfrigérées.
+
+## Quesadillas bœuf & fromage
+
+- Catégorie : bœuf / tortillas · Temps total : 20 min
+- Matériel : poêle, Airfryer, spatule
+- Accompagnement : salade verte ou carottes râpées
+
+**Ingrédients**
+
+| Ingrédient | Quantité | Produit Intermarché |
+|---|---|---|
+| Tortillas | 8 pièces | Tortillas de blé Itinéraire des Saveurs, boîte de 320 g (n° 37) : 8 par boîte, donc 1 boîte |
+| Bœuf haché | 500 g | Viande hachée Jean Rozé pur bœuf, barquette de 350 g (n° 9) : 2 barquettes |
+| Fromage râpé | 150 g | Possible : Grana Padano râpé 100 g (n° 4), 2 paquets, à confirmer |
+| Maïs | 1 petite boîte | Non listé |
+| Sauce tomate | 200 g | Non listé |
+| Oignon (option) | 1 pièce | Non listé |
+| Sel, poivre | | Placard |
+| Carottes râpées (option) | | Carottes râpées Monique Ranou (n° 34) |
+
+**Préparation**
+1. Faire cuire le bœuf haché dans une poêle en l'émiettant.
+2. Ajouter éventuellement l'oignon.
+3. Ajouter la sauce tomate et le maïs égoutté.
+4. Laisser réduire quelques minutes pour éviter une garniture trop liquide.
+5. Garnir une moitié de chaque tortilla.
+6. Ajouter le fromage et replier.
+7. Cuire à l'Airfryer.
+
+**Cuisson** : Airfryer à 180 °C pendant 5 à 7 min, en plusieurs fournées si nécessaire.
+
+**Restes** : garder au réfrigérateur, réchauffer quelques minutes à l'Airfryer. Congélation : oui, de préférence avant la cuisson finale.
+
+## Tortilla pommes de terre, jambon & fromage
+
+- Catégorie : œufs / pommes de terre · Temps total : 25 min
+- Matériel : micro-ondes, grande poêle allant au four ou plat, four ou plaques, saladier
+- Accompagnement : salade verte ou crudités
+
+**Ingrédients**
+
+| Ingrédient | Quantité | Produit Intermarché |
+|---|---|---|
+| Pommes de terre | 800 g | Non listé |
+| Œufs | 8 pièces | Œufs plein air Volaé, boîte de 6 (n° 6) : 2 boîtes, il en reste 4 |
+| Jambon en dés | 200 g | Dés de jambon cuit Monique Ranou, sachet de 400 g (n° 14) : il en reste 200 g |
+| Oignon | 1 pièce | Non listé |
+| Fromage râpé | 80 à 100 g | Possible : Grana Padano râpé 100 g (n° 4), à confirmer |
+| Huile | 1 filet | Placard |
+| Sel, poivre | | Placard |
+
+**Préparation**
+1. Couper les pommes de terre en petits dés.
+2. Les précuire au micro-ondes jusqu'à ce qu'elles commencent à être tendres.
+3. Faire revenir l'oignon puis les pommes de terre quelques minutes.
+4. Ajouter le jambon.
+5. Battre les œufs avec sel et poivre.
+6. Verser sur les pommes de terre.
+7. Ajouter le fromage.
+8. Terminer la cuisson doucement à la poêle ou au four.
+
+**Cuisson** : feu doux jusqu'à ce que les œufs soient pris, ou terminer environ 8 à 10 min au four à 190 °C.
+
+**Restes** : très bonne chaude ou froide le lendemain, garder au réfrigérateur. Congélation : oui, mais texture légèrement moins agréable après décongélation.
 
 ## À ajouter
 
