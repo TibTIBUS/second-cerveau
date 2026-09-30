@@ -2,7 +2,7 @@
 
 Objectif : un agent qui téléphone pour Thibaut, en perso (rendez-vous médical, restaurant, pizza) puis en pro (prospection Localia). Il n'aime pas téléphoner.
 
-Statut : plan validé le 2026-09-30. Compte ElevenLabs créé le 2026-09-30 (offre gratuite, sans carte bancaire).
+Statut : plan validé le 2026-09-30. Compte ElevenLabs créé (offre gratuite, sans carte bancaire). Agent de test « Assistant de Thibaut - test » créé via l'agent Claude dans Chrome (voix Clément, français) et testé au micro par Thibaut le 2026-09-30 : test concluant.
 
 ## Règles
 
@@ -18,15 +18,20 @@ Statut : plan validé le 2026-09-30. Compte ElevenLabs créé le 2026-09-30 (off
 - Offre gratuite ElevenLabs : 15 minutes d'appels d'agent par mois, sans carte bancaire. Suffit pour les étapes 1 et 2.
 - Offre payante Starter : 6 $ par mois, 75 minutes d'appels. À envisager seulement à partir de l'étape 3.
 - Sur les offres payantes, le tarif d'appel annoncé est d'environ 0,08 $ la minute, plus le modèle de langage et la téléphonie facturés à part (téléphonie sortante France : environ 0,013 à 0,022 $ la minute chez Twilio).
-- Pour appeler de vrais numéros : il faut un compte Twilio (avec carte bancaire) et un numéro, relié à ElevenLabs. Un numéro « vérifié » peut servir à appeler seulement (pas à recevoir).
+- Pour appeler de vrais numéros : compte Twilio (avec carte bancaire) relié à ElevenLabs. Un compte d'essai Twilio ne peut appeler que des numéros vérifiés, donc un compte payant sera nécessaire (recharge minimale à confirmer).
 - Ordre de grandeur : quelques euros par mois en usage perso. Prospection : 100 appels de 2 minutes, environ 20 à 60 €.
 - Vapi et Retell écartés : trop techniques.
+
+## Choix du numéro d'appel (étape 3)
+
+- Option A, recommandée : faire vérifier le propre numéro mobile de Thibaut dans Twilio (« Verified Caller ID »). L'agent appelle en sortie seulement, le numéro affiché est celui de Thibaut, aucun dossier administratif.
+- Option B : acheter un numéro français chez Twilio. Demande un « Regulatory Bundle » (pièce d'identité + justificatif de domicile local, pas de boîte postale, validation jusqu'à 2 jours ouvrés), et les numéros mobiles sont difficiles à obtenir. À garder pour plus tard (réception d'appels, prospection).
 
 ## Étapes
 
 - [x] 1. Créer un compte ElevenLabs (offre gratuite, pas de carte bancaire pour l'instant).
-- [ ] 2. Créer un agent de test et lui parler depuis le navigateur (sans numéro de téléphone), en français.
-- [ ] 3. Compte Twilio + numéro, puis premier vrai usage : réserver une table au restaurant (plafond de dépense, recharge automatique désactivée).
+- [x] 2. Agent de test créé et essayé au micro dans le navigateur, en français : concluant.
+- [ ] 3. Compte Twilio + numéro (option A), relié à ElevenLabs, puis premier vrai usage : réserver une table au restaurant (plafond de dépense, recharge automatique désactivée).
 - [ ] 4. Rendez-vous médical (informations minimales).
 - [ ] 5. Lien avec Hermès : Thibaut demande, Hermès lance l'appel.
 - [ ] 6. Prospection Localia, en dernier, après vérification juridique.
