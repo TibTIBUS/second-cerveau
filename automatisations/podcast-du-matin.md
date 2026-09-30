@@ -1,6 +1,6 @@
 # Podcast du matin — réglages
 
-État : **essai validé par Thibaut**, horaire choisi, pas encore programmé (mission n°3 à envoyer à Hermès).
+État : **en test** depuis le 2026-09-30 (tâche `podcast-du-matin`, job 8a70e39d3e7d). Voir `SUIVI.md`.
 
 ## Format
 
@@ -33,12 +33,15 @@ Source : `maison/menage.md`.
 ## Règles
 
 - Ne rien inventer. Si une source ne répond pas, le dire en une phrase et continuer.
-- En cas d'échec complet : envoyer un message texte « podcast indisponible » avec la cause.
+- **La voix est obligatoire dans la tâche** : générer le fichier audio avec l'outil de synthèse vocale (text_to_speech), puis le joindre au message avec sa transcription.
+- **Si la voix échoue** : envoyer quand même le texte complet du podcast, avec une première ligne « Voix indisponible ce matin, voici le texte ». Ne jamais se limiter à « podcast indisponible » tant que le texte peut être produit.
+- En cas d'échec complet (ni voix ni texte) : envoyer un message texte « podcast indisponible » avec la cause.
 - Le podcast est envoyé à Thibaut seul, sur Telegram. Aucun autre destinataire, aucune autre action.
+- Consulter l'état de la tâche ne doit jamais la déclencher. Ne lancer une exécution que sur demande explicite de Thibaut.
 
 ## Période de test
 
-- 7 jours à partir de la programmation. Thibaut note ce qui ne va pas, on ajuste à la fin.
+- 7 envois valides. Le premier envoi automatique du 2026-09-30 a échoué (pas de voix) : il ne compte pas. Thibaut note ce qui ne va pas, on ajuste à la fin.
 
 ## Arrêt
 
