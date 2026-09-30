@@ -22,7 +22,7 @@ Ajouter chaque nouvelle date comme une ligne à la fin du tableau.
 | 09-01 | anniversaire | Agnès, mère de Thibaut (Mamou) | née en 1957 |
 | 03-31 | anniversaire | Daniel, père de Thibaut (Papé) | né en 1952 |
 | 08-07 | anniversaire | Élise, sœur d'Aline | née en 1987 |
-| 03-14 | anniversaire | Sébastien | né en 1985 ; lien à préciser |
-| 07-21 | anniversaire | Salomé | née en 2016 ; lien à préciser |
-| 10-05 | anniversaire | Lilio, filleul n° 3 de Thibaut | né en 2020 |
-| 10-05 | anniversaire | Malo | né en 2020 ; lien à préciser |
+| 03-14 | anniversaire | Sébastien, compagnon d'Élise | né en 1985 |
+| 07-21 | anniversaire | Salomé, fille d'Élise et Sébastien | née en 2016 |
+| 10-05 | anniversaire | Lilio, jumeau de Malo, filleul n° 3 de Thibaut | né en 2020 |
+| 10-05 | anniversaire | Malo, jumeau de Lilio | né en 2020 |
