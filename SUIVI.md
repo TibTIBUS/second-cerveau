@@ -1,6 +1,6 @@
 # Suivi du chantier « second cerveau & automatisations »
 
-Mise à jour : 2026-10-01 (Claude)
+Mise à jour : 2026-09-30 (Claude)
 
 ## Objectif
 
@@ -16,8 +16,8 @@ Retrouver facilement les infos, ne plus rien oublier de ce qui concerne les proc
 - 2026-09-29 — Écriture directe sur `main` autorisée ici (exception à la règle du site Localia). Aucune suppression sans accord de Thibaut.
 - 2026-09-29 — Podcast du matin : tous les jours à 6 h ; contenu = perso (dates, planning famille, ménage), pro, sport (F1, équipe de France, OM, SM Caen), espace (seulement si important), actus et tech/IA. Voir `automatisations/podcast-du-matin.md`.
 - 2026-09-30 — Règle du silence : quand il n'y a rien à dire sur un sujet, le podcast ne dit rien.
-- 2026-10-01 — Recherche web du podcast : Tavily en priorité (offre gratuite, 1 000 recherches par mois, plafond réglé à 1 000 chez Tavily), Bing via le navigateur en repli, jamais Google (bloqué).
-- 2026-10-01 — Agenda famille : lien iCal FamilyWall lu par Hermès en lecture seule (titre, heure, lieu). Le lien ne va jamais dans ce dépôt.
+- 2026-09-30 — Recherche web du podcast : Tavily en priorité (offre gratuite, 1 000 recherches par mois, plafond réglé à 1 000 chez Tavily), Bing via le navigateur en repli, jamais Google (bloqué).
+- 2026-09-30 — Agenda famille : lien iCal FamilyWall lu par un script attaché à la tâche (lecture seule), qui ne sort que titre, heure et lieu, pour aujourd'hui et demain. Rendez-vous médicaux masqués (titre « rendez-vous médical », lieu « voir agenda »), ainsi que tout titre contenant « privé ». Le lien ne va jamais dans ce dépôt.
 
 ## Outils retenus
 
@@ -25,6 +25,7 @@ Retrouver facilement les infos, ne plus rien oublier de ce qui concerne les proc
 - Hermès via Telegram : capture vocale, rappels, tâches planifiées.
 - Synthèse vocale : Edge TTS, gratuite (voix fr-FR-DeniseNeural indisponible dans la tâche planifiée ; une voix Edge compatible est utilisée à la place) ; ffmpeg installé pour les bulles vocales Telegram.
 - Recherche web : Tavily (clé dans la configuration privée de Hermès).
+- Agenda famille : FamilyWall, lien iCal, script `~/.hermes/scripts/familywall_today.py` sur le PC de Hermès.
 - Claude : conception, rédaction des fichiers, vérifications.
 
 ## Automatisations
@@ -34,8 +35,8 @@ Retrouver facilement les infos, ne plus rien oublier de ce qui concerne les proc
 | Automatisation | Déclencheur | Où elle tourne | État | Pour l'arrêter |
 |---|---|---|---|---|
 | Capture vocale → rangement dans le dépôt | Message ou vocal Telegram à Hermès | Hermès (PC) | en test (OK sur 3 proches) | Dire à Hermès d'arrêter et retirer la consigne de sa mémoire |
-| Podcast du matin | Tous les jours à 6 h (Europe/Paris) ; test en cours, 9 exécutions au total dans le compteur | Hermès (PC) → Telegram (Thibaut seul) | en test (dernier essai OK, 2026-10-01) | `hermes cron pause 8a70e39d3e7d` |
-| Agenda famille (FamilyWall) dans le podcast | Chaque exécution du podcast | Hermès (PC), lecture seule | en préparation | Retirer la variable dans la configuration de Hermès |
+| Podcast du matin | Tous les jours à 6 h (Europe/Paris) ; test en cours | Hermès (PC) → Telegram (Thibaut seul) | en test (dernier essai avec Tavily OK, 2026-09-30) | `hermes cron pause 8a70e39d3e7d` |
+| Agenda famille (FamilyWall) dans le podcast | Chaque exécution du podcast | Script sur le PC de Hermès, lecture seule | en test : script testé (3 tests OK), pas encore attaché à la tâche | Détacher le script de la tâche ; retirer la variable dans la configuration de Hermès |
 | Courses : liste type + rappel | Chaque semaine | Hermès | proposée | Idem |
 | Prospection : fiche d'appel + relance préparée | Jours ouvrés | Hermès + Gmail pro | proposée | Idem |
 | Réservations préparées en ligne | À la demande | Hermès | proposée | — |
@@ -65,7 +66,8 @@ Les gains sont des hypothèses, à comparer au temps de maintenance après un mo
 - 2026-09-29 — Podcast du matin programmé pour un test de 7 jours.
 - 2026-09-30 — Envoi automatique de 6 h : échec (pas de voix). Ne compte pas dans le test.
 - 2026-09-30 — Exécution manuelle : OK, mais erreurs de planning (mercredi) et recherche web bloquée par Google. Corrigés ensuite : tableaux jour par jour, règle du silence, Bing en repli.
-- 2026-10-01 — Exécution manuelle avec Tavily : OK, 1 min 53 s, 16 recherches Tavily, aucun repli Bing, aucune erreur de contenu signalée par Thibaut. Limites relevées : 5 échecs d'extraction d'articles (Failed to fetch url), voix fr-FR-DeniseNeural indisponible (voix Edge équivalente utilisée), et la note technique annonçait 19 recherches au lieu de 16 (le décompte de la note n'est pas fiable).
+- 2026-09-30 — Exécution manuelle avec Tavily : OK, 1 min 53 s, 16 recherches Tavily, aucun repli Bing, aucune erreur de contenu signalée par Thibaut. Limites relevées : 5 échecs d'extraction d'articles (Failed to fetch url), voix fr-FR-DeniseNeural indisponible (voix Edge équivalente utilisée), et la note technique annonçait 19 recherches au lieu de 16 (le décompte de la note n'est pas fiable).
+- 2026-09-30 — Script FamilyWall : 3 tests OK avec l'interpréteur de la tâche (aujourd'hui/demain corrects, rendez-vous médicaux masqués titre et lieu, note « secret 123 » jamais sortie, série hebdomadaire correctement développée, statut ok). Non testé en réel : une série répétée avec date de fin.
 
 ## Blocages
 
@@ -73,6 +75,8 @@ Les gains sont des hypothèses, à comparer au temps de maintenance après un mo
 
 ## Prochaine action
 
-- Thibaut : (ce soir) remplacer la clé Tavily et redémarrer la passerelle Hermès ; puis valider le résumé des rendez-vous lu depuis FamilyWall.
+- Thibaut : envoyer à Hermès l'accord pour attacher le script à la tâche et mettre à jour le prompt ; écouter l'essai ; supprimer les événements TEST dans FamilyWall (toute la série « TEST récurrent », pas seulement une occurrence).
+- Thibaut : (ce soir) remplacer la clé Tavily et redémarrer la passerelle Hermès.
 - Claude : suivre le podcast quotidien pendant la période de test ; vérifier la consommation Tavily après une semaine (objectif : rester sous 1 000 par mois) ; choisir ensuite la prochaine automatisation (courses ou prospection).
+- Le 2026-10-06 : le podcast doit annoncer le rendez-vous médical du lendemain (7 octobre, 16 h 50). C'est le vrai test de l'agenda famille.
 - À compléter par Thibaut au fil de l'eau : planning des vacances de Faustine (centre de loisirs, Mamou), autres proches, tailles et goûts.
