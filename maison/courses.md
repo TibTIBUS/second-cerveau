@@ -53,7 +53,7 @@ Sert à retrouver la marque, le format et le rayon exacts d'un produit. Les prix
 | 34 | Traiteur | Monique Ranou, carottes râpées, barquette de 500 g | |
 | 35 | Volailles panées | Père Dodu, l'escalope cordon bleu poulet, boîte de 4 (400 g) | |
 | 36 | Pâtes à tarte | Monique Ranou, pâte feuilletée pur beurre, 1 pâte de 230 g | |
-| 37 | Cuisine du monde | Itinéraire des Saveurs, tortillas de blé, boîte de 320 g | Nombre de tortillas non confirmé |
+| 37 | Cuisine du monde | Itinéraire des Saveurs, tortillas de blé, boîte de 320 g | 8 tortillas par boîte (confirmé par Thibaut) |
 | 38 | Jus de fruits | Paquito, jus d'orange 100 % pur jus sans pulpe, bouteille de 1,5 L | |
 | 39 | Vins | Les Rozallées, vin rosé Corse, bouteille de 75 cl | AOP |
 | 40 | Bières | Bud, bière blonde, 20 bouteilles de 25 cl | |

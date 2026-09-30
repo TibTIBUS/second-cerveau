@@ -11,15 +11,16 @@ Thème : 3 recettes par semaine, courses au Drive **Intermarché de Lessay**, re
 ## Déroulé (Hermès)
 
 1. **Proposer 3 recettes** de `maison/recettes.md`, sans reprendre celles des 2 dernières semaines (voir l'historique ci-dessous), en variant les types (une viande, un gratin, un plat de féculents…). Thibaut valide ou remplace.
-2. **Liste à vérifier** : les ingrédients des 3 recettes retenues plus les produits de base, groupés par lieu : frigo, congélateur, placards. Thibaut répond « ok » ou « manque » pour chaque ligne (les quantités partielles sont précisées). Pas de contrôle au-delà de ces lignes.
-3. **Liste finale** : ce qui manque, par rayon, avec la quantité à acheter, le produit Intermarché correspondant (n° de `maison/courses.md`) quand il existe, et « non listé » sinon. Regrouper les doublons d'une même semaine (ex. oignon, fromage râpé).
-4. **Mise à jour de l'historique** ci-dessous après validation par Thibaut.
+2. **Liste à vérifier** : les ingrédients des 3 recettes retenues plus les produits de base, groupés par lieu : frigo, congélateur, placards. **Additionner d'abord les ingrédients communs** à plusieurs recettes (ex. oignon, fromage râpé) et demander le total (« 2 oignons », « 200 g de fromage râpé »), pas recette par recette. Thibaut répond « ok » ou « manque » pour chaque ligne (les quantités partielles sont précisées). Pas de contrôle au-delà de ces lignes.
+3. **Liste finale** : ce qui manque, par rayon. Pour chaque ligne : la quantité nécessaire, **l'unité d'achat** (par exemple « 1 sachet de 400 g » ou « 1 boîte de 5 sachets »), le produit Intermarché correspondant (n° de `maison/courses.md`) quand il existe, et « non listé » sinon. Ajouter le contenu de la « Liste en cours » de `maison/courses.md`.
+4. **Mise à jour de l'historique** ci-dessous après validation explicite par Thibaut.
 
 ## Règles
 
 - Ne jamais deviner une quantité ou un stock : demander.
 - Ne pas ajouter d'article que Thibaut n'a pas validé.
-- Une recette déjà prévue ne se recompte pas : les quantités sont déjà pour 4 personnes + 2 déjeuners.
+- Une recette est déjà prévue pour 4 personnes + 2 déjeuners : les quantités ne se recalculent pas.
+- Un ingrédient facultatif (ex. carottes râpées) n'est pas ajouté à la liste sans l'accord de Thibaut.
 - Si un produit est indisponible au Drive, Thibaut choisit le remplaçant.
 - Ne rien commander, ne rien payer : Thibaut seul passe la commande.
 
@@ -32,3 +33,7 @@ Les quelques produits qui reviennent toutes les semaines en dehors des recettes 
 | Semaine (lundi de retrait) | Recettes retenues |
 |---|---|
 | 2026-10-05 | (à venir) |
+
+## Essais
+
+- 2026-09-30 — Essai à blanc (semaine du 5 octobre) : les 3 recettes du fichier, inventaire par lieu, liste finale correcte (pommes de terre 800 g, poulet 600 g, sauce tomate 300 g, 1 sachet de dés de jambon, 2 barquettes de viande hachée, 1 boîte de riz). Recettes non ajoutées à l'historique : le vrai cycle commence dimanche 2026-10-04.
