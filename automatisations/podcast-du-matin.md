@@ -6,15 +6,33 @@
 
 - Vocal Telegram en français (voix fr-FR-DeniseNeural), 5 min maximum, avec le texte en dessous.
 - **Tous les jours à 6 h 00, heure de Paris** (choix de Thibaut, 2026-09-29).
-- Ton direct, sans remplissage. Une rubrique vide est sautée.
+- Ton direct, sans remplissage.
+- **Le temps de préparation n'est pas un problème** : la tâche peut prendre le temps qu'il faut pour chercher, lire et recouper correctement. La qualité prime sur la vitesse. Seule la durée du podcast est limitée.
+
+## Règle du silence (choix de Thibaut, 2026-09-30)
+
+**Quand il n'y a rien à dire sur un sujet, ne rien dire.** Ne jamais annoncer l'absence d'information : pas de « aucun anniversaire aujourd'hui », pas de « je n'ai pas pu vérifier le sport », pas de « l'agenda n'est pas accessible ». La rubrique est simplement sautée.
+
+Une seule exception, dans la **transcription écrite uniquement** (jamais dans l'audio) : si une source qui devrait fonctionner est cassée (agenda inaccessible, recherche web en échec), ajouter tout à la fin du texte une ligne « Note technique : … ». Elle sert à repérer les pannes, pas à être lue.
 
 ## Contenu, dans cet ordre
 
-1. **Perso** : anniversaires et fêtes du jour (`dates.md`), puis ceux des 7 prochains jours avec une idée cadeau tirée de la fiche ; **planning famille du jour** (`maison/planning-famille.md`) : horaires d'Aline, où sont les filles (nounou ou école), activités et vacances ; agenda famille du jour ; **rappels de la maison** (voir ci-dessous).
+1. **Perso** : anniversaires et fêtes du jour (`dates.md`), puis ceux des 7 prochains jours avec une idée cadeau tirée de la fiche ; **planning famille du jour** (`maison/planning-famille.md`, lire d'abord le tableau par jour de la semaine) : horaires d'Aline, où sont les filles, activités et vacances ; agenda famille du jour ; **rappels de la maison** (voir ci-dessous).
 2. **Pro** : agenda Localia du jour ; tâches dues ou en retard (`taches.md`).
-3. **Sport** (version de Thibaut) : F1 ; football : équipe de France, Olympique de Marseille, Stade Malherbe de Caen (résultats de la veille, prochain match, actu importante).
+3. **Sport** : voir la méthode ci-dessous.
 4. **Espace** : dernières infos SpaceX et du secteur spatial, **seulement si elles sont importantes** (lancement, essai majeur, échec, annonce ou décision qui change la donne). Sinon, rubrique sautée, sans le dire.
 5. **Actus** : 3 titres généraux, puis 3 infos tech et IA.
+
+## Sport : méthode de recherche
+
+Sujets : **Formule 1**, **équipe de France de football**, **Olympique de Marseille**, **Stade Malherbe de Caen**.
+
+- Pour chaque sujet, chercher l'actualité récente (dernières 24 à 48 h) : résultat du dernier match ou de la dernière course, prochain rendez-vous (date et heure de Paris), et toute info importante (blessure, sanction, décision, classement qui bouge).
+- **Lire les articles en entier**, pas seulement les titres ou extraits.
+- **Recouper** : une info n'est retenue que si elle est confirmée par au moins deux sources fiables (presse sportive nationale, site officiel du club, de la fédération ou de la FIA, agence de presse). Les rumeurs de transferts et les on-dit sont écartés, sauf s'ils sont largement confirmés, et alors présentés comme non confirmés.
+- **Analyser** : dire ce qui compte, en une phrase de contexte (enjeu au classement, conséquence du résultat), sans blabla.
+- **Format** : 2 à 3 phrases par sujet maximum, environ une minute au total. Source citée dans la transcription. Un sujet sans actualité fiable est sauté en silence.
+- Prendre le temps nécessaire pour faire ces recherches correctement.
 
 ## Rappels de la maison (hebdomadaires)
 
@@ -28,11 +46,11 @@ Source : `maison/menage.md`.
 
 - Ce dépôt : `dates.md`, `taches.md`, `personnes/`, `maison/menage.md`, `maison/planning-famille.md`.
 - Agendas : liens iCal privés, gardés dans la configuration de Hermès, **jamais dans ce dépôt**.
-- Actus, sport, espace : flux RSS ou recherche web à choisir et tester. Citer la source de chaque info importante.
+- Actus, sport, espace : recherche web, sources fiables, à recouper. Citer la source de chaque info importante dans la transcription.
 
 ## Règles
 
-- Ne rien inventer. Si une source ne répond pas, le dire en une phrase et continuer.
+- Ne rien inventer. En cas de doute sur une info, ne pas la dire.
 - **La voix est obligatoire dans la tâche** : générer le fichier audio avec l'outil de synthèse vocale (text_to_speech), puis le joindre au message avec sa transcription.
 - **Si la voix échoue** : envoyer quand même le texte complet du podcast, avec une première ligne « Voix indisponible ce matin, voici le texte ». Ne jamais se limiter à « podcast indisponible » tant que le texte peut être produit.
 - En cas d'échec complet (ni voix ni texte) : envoyer un message texte « podcast indisponible » avec la cause.
