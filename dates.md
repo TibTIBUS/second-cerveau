@@ -17,3 +17,12 @@ Ajouter chaque nouvelle date comme une ligne à la fin du tableau.
 | 09-06 | anniversaire | Clément, fils de Damien et Florine | premier filleul de Thibaut |
 | 08-30 | anniversaire | Cloé, fille de Damien et Florine | |
 | 10-15 | anniversaire | Fabian, second frère de Thibaut | né en 1994 |
+| 05-27 | anniversaire | Mégane, compagne de Fabian | née en 1995 |
+| 03-15 | anniversaire | Paloma, fille de Fabian et Mégane | née en 2026 |
+| 09-01 | anniversaire | Agnès, mère de Thibaut (Mamou) | née en 1957 |
+| 03-31 | anniversaire | Daniel, père de Thibaut (Papé) | né en 1952 |
+| 08-07 | anniversaire | Élise, sœur d'Aline | née en 1987 |
+| 03-14 | anniversaire | Sébastien | né en 1985 ; lien à préciser |
+| 07-21 | anniversaire | Salomé | née en 2016 ; lien à préciser |
+| 10-05 | anniversaire | Lilio, filleul n° 3 de Thibaut | né en 2020 |
+| 10-05 | anniversaire | Malo | né en 2020 ; lien à préciser |
