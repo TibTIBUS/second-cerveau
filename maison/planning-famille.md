@@ -1,6 +1,9 @@
 # Planning famille : horaires d'Aline, garde et activités des filles
 
-Source pour le podcast du matin. Informations données par Thibaut le 2026-09-29. **Correction du 2026-10-01 : la semaine du lundi 2026-09-28 est une semaine B** (Aline a fini à 19 h 15 jeudi 1er octobre et finit à 18 h samedi 3 octobre) ; la semaine du 2026-10-05 est donc une semaine A.
+Source pour le podcast du matin. Informations données par Thibaut le 2026-09-29, **corrigées le 2026-10-01** : le cycle d'Aline est le suivant.
+
+- **Semaine A** (lundi 2026-09-28, 2026-10-12…) : repos le **lundi**, travaille les autres jours de semaine jusqu'à 19 h 15, finit à **18 h le samedi**. Le jeudi, elle finit à 19 h 15.
+- **Semaine B** (lundi 2026-10-05, 2026-10-19…) : repos le **mercredi**, travaille le lundi, finit à **18 h le jeudi**, finit à 19 h 15 le samedi.
 
 Surnoms : **Mamour** = Aline ; **Mamou** = Agnès, la maman d'Aline ; **Papé** = Daniel, le papa d'Aline. Dans le podcast, dire « Aline » ou « Mamou » selon la personne, sans confusion.
 
@@ -18,23 +21,23 @@ Le lundi de chaque semaine : la semaine alterne A, B, A, B…
 
 | Lundi de la semaine | Semaine |
 |---|---|
-| 2026-09-28 | B |
-| 2026-10-05 | A |
-| 2026-10-12 | B |
-| 2026-10-19 | A |
-| 2026-10-26 | B |
-| 2026-11-02 | A |
-| 2026-11-09 | B |
-| 2026-11-16 | A |
-| 2026-11-23 | B |
-| 2026-11-30 | A |
-| 2026-12-07 | B |
-| 2026-12-14 | A |
-| 2026-12-21 | B |
-| 2026-12-28 | A |
-| 2027-01-04 | B |
+| 2026-09-28 | A |
+| 2026-10-05 | B |
+| 2026-10-12 | A |
+| 2026-10-19 | B |
+| 2026-10-26 | A |
+| 2026-11-02 | B |
+| 2026-11-09 | A |
+| 2026-11-16 | B |
+| 2026-11-23 | A |
+| 2026-11-30 | B |
+| 2026-12-07 | A |
+| 2026-12-14 | B |
+| 2026-12-21 | A |
+| 2026-12-28 | B |
+| 2027-01-04 | A |
 
-Au-delà : continuer l'alternance (A les semaines dont le lundi est un nombre pair de semaines après le 2026-10-05).
+Au-delà : continuer l'alternance (A les semaines dont le lundi est un nombre pair de semaines après le 2026-09-28).
 
 ## Semaine A : jour par jour (hors vacances et jours sans classe)
 
@@ -43,9 +46,9 @@ Au-delà : continuer l'alternance (A les semaines dont le lundi est un nombre pa
 | Lundi | **En repos** | À la maison | École 8 h 30–12 h, 13 h 30–16 h 30 |
 | Mardi | Travaille 9 h–19 h 15 ; badminton à 20 h | Chez Séverine | École 8 h 30–12 h, 13 h 30–16 h 30 |
 | Mercredi | Travaille 9 h–19 h 15 | Chez Séverine | **Pas d'école.** Natation le matin, **accompagnée par Mamou** |
-| Jeudi | Travaille 9 h–**18 h** | Chez Séverine | École 8 h 30–12 h, 13 h 30–16 h 30. Ménage : passage de 14 h à 17 h 30 |
+| Jeudi | Travaille 9 h–19 h 15 | Chez Séverine | École 8 h 30–12 h, 13 h 30–16 h 30. Ménage : passage de 14 h à 17 h 30 |
 | Vendredi | Travaille 9 h–19 h 15 | Chez Séverine | École 8 h 30–12 h, 13 h 30–16 h 30, puis **hand 17 h 15–18 h 15** (Thibaut emmène aussi Emma et Soline) |
-| Samedi | Horaires non précisés : ne pas les annoncer | À la maison avec Thibaut | Pas d'école |
+| Samedi | Travaille 9 h–**18 h** | À la maison avec Thibaut | Pas d'école |
 | Dimanche | Pas de travail | À la maison | Pas d'école |
 
 ## Semaine B : jour par jour (hors vacances et jours sans classe)
@@ -55,9 +58,9 @@ Au-delà : continuer l'alternance (A les semaines dont le lundi est un nombre pa
 | Lundi | Travaille 9 h–19 h 15 | Chez Séverine | École 8 h 30–12 h, 13 h 30–16 h 30 |
 | Mardi | Travaille 9 h–19 h 15 ; badminton à 20 h | Chez Séverine | École 8 h 30–12 h, 13 h 30–16 h 30 |
 | Mercredi | **En repos** | À la maison | **Pas d'école.** Natation le matin, **accompagnée par Aline** |
-| Jeudi | Travaille 9 h–19 h 15 | Chez Séverine | École 8 h 30–12 h, 13 h 30–16 h 30. Ménage : passage de 14 h à 17 h 30 |
+| Jeudi | Travaille 9 h–**18 h** | Chez Séverine | École 8 h 30–12 h, 13 h 30–16 h 30. Ménage : passage de 14 h à 17 h 30 |
 | Vendredi | Travaille 9 h–19 h 15 | Chez Séverine | École 8 h 30–12 h, 13 h 30–16 h 30, puis **hand 17 h 15–18 h 15** (Thibaut emmène aussi Emma et Soline) |
-| Samedi | Travaille 9 h–**18 h** | À la maison avec Thibaut | Pas d'école |
+| Samedi | Travaille 9 h–19 h 15 | À la maison avec Thibaut | Pas d'école |
 | Dimanche | Pas de travail | À la maison | Pas d'école |
 
 Le badminton du mardi n'a pas lieu pendant les vacances scolaires.
@@ -106,4 +109,3 @@ Règles :
 ## À confirmer par Thibaut
 
 - Pendant les vacances, quels jours Faustine est au centre de loisirs ou chez Mamou, et qui la garde quand Aline travaille.
-- Les horaires d'Aline le samedi de la semaine A.
