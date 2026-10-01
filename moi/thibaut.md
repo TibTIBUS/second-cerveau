@@ -9,9 +9,9 @@
 - Taille : 1,71 m
 - Poids : 100 kg
 - Haut (t-shirt, pull) : XL
-- Pantalon / jean : inconnue, à vérifier (taille importante)
+- Pantalon / jean : 34/32 (marque Jack & Jones)
 - Chaussures : 44
-- Marques et coupes qui me vont :
+- Marques et coupes qui me vont : Jack & Jones (pantalon, taille 34/32)
 
 ## Priorités et objectifs
 
