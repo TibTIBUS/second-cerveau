@@ -20,7 +20,7 @@ Une seule exception, dans la **transcription écrite uniquement** (jamais dans l
 Le planning famille, les anniversaires et les rappels de la maison ne sont **plus déduits par le modèle** : ils sont calculés par un script, et le modèle lit les phrases produites.
 
 - Script de la tâche (pré-exécution) : `~/.hermes/scripts/briefing_matin.py` (sur le PC d'Hermès). Il fait `git pull`, lance `scripts/briefing_du_jour.py` (dans ce dépôt) puis `familywall_today.py`, puis le résumé des e-mails, et écrit des sections étiquetées : DATE_DU_JOUR, BRIEFING DU JOUR, AGENDA FAMILLE (AGENDA AUJOURD'HUI / AGENDA DEMAIN), E-MAILS.
-- `scripts/briefing_du_jour.py` calcule la semaine A/B (**lundi 2026-10-05 = semaine A, donc la semaine du 2026-09-28 est une semaine B**, correction du 2026-10-01), le planning du jour, les vacances et jours sans classe, les anniversaires du jour et des 7 jours suivants (lus dans `dates.md`) et les rappels du ménage.
+- `scripts/briefing_du_jour.py` calcule la semaine A/B (**lundi 2026-09-28 = semaine A** : Aline en repos le lundi et finissant à 18 h le samedi ; **semaine B** : repos le mercredi et fin à 18 h le jeudi ; cycle corrigé le 2026-10-01), le planning du jour, les vacances et jours sans classe, les anniversaires du jour et des 7 jours suivants (lus dans `dates.md`) et les rappels du ménage.
 - **Les horaires sont dans le script** (tables ALINE, APOLLINE, VACANCES, SANS_CLASSE). `maison/planning-famille.md` reste la version lisible : **si le planning change, modifier le script ET ce fichier**.
 - Agenda du jour : le modèle ne parle que des lignes « AGENDA AUJOURD'HUI » ; celles de « AGENDA DEMAIN » sont annoncées avec « demain ».
 - Test : `python3 scripts/briefing_du_jour.py --date AAAA-MM-JJ`.
@@ -77,7 +77,7 @@ Source : le script de briefing (d'après `maison/menage.md`).
 
 - 7 envois valides. Le premier envoi automatique du 2026-09-30 a échoué (pas de voix) : il ne compte pas. Thibaut note ce qui ne va pas, on ajuste à la fin.
 - La limite d'exécutions de la tâche a été retirée le 2026-10-01 (répétition sans fin).
-- Corrections du 2026-10-01 : mauvaise semaine A/B (calendrier inversé : la semaine du 28 sept est B), rappel du ménage et anniversaires oubliés, agenda de demain annoncé comme aujourd'hui. Corrigées par le script de briefing et les sections étiquetées.
+- Corrections du 2026-10-01 : mauvaise semaine A/B (cycle d'Aline corrigé deux fois dans la journée, voir `maison/planning-famille.md`), rappel du ménage et anniversaires oubliés, agenda de demain annoncé comme aujourd'hui. Corrigées par le script de briefing et les sections étiquetées.
 
 ## Arrêt
 
