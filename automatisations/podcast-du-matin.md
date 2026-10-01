@@ -15,9 +15,19 @@
 
 Une seule exception, dans la **transcription écrite uniquement** (jamais dans l'audio) : si une source qui devrait fonctionner est cassée (agenda inaccessible, recherche web en échec), ajouter tout à la fin du texte une ligne « Note technique : … ». Elle sert à repérer les pannes, pas à être lue.
 
+## Script de briefing (depuis le 2026-10-01)
+
+Le planning famille, les anniversaires et les rappels de la maison ne sont **plus déduits par le modèle** : ils sont calculés par un script, et le modèle lit les phrases produites.
+
+- Script de la tâche (pré-exécution) : `~/.hermes/scripts/briefing_matin.py` (sur le PC d'Hermès). Il fait `git pull`, lance `scripts/briefing_du_jour.py` (dans ce dépôt) puis `familywall_today.py`, et écrit des sections étiquetées : DATE_DU_JOUR, BRIEFING DU JOUR, AGENDA FAMILLE (AGENDA AUJOURD'HUI / AGENDA DEMAIN).
+- `scripts/briefing_du_jour.py` calcule la semaine A/B (lundi 2026-09-28 = semaine A), le planning du jour, les vacances et jours sans classe, les anniversaires du jour et des 7 jours suivants (lus dans `dates.md`) et les rappels du ménage.
+- **Les horaires sont dans le script** (tables ALINE, APOLLINE, VACANCES, SANS_CLASSE). `maison/planning-famille.md` reste la version lisible : **si le planning change, modifier le script ET ce fichier**.
+- Agenda du jour : le modèle ne parle que des lignes « AGENDA AUJOURD'HUI » ; celles de « AGENDA DEMAIN » sont annoncées avec « demain ».
+- Test : `python3 scripts/briefing_du_jour.py --date AAAA-MM-JJ`.
+
 ## Contenu, dans cet ordre
 
-1. **Perso** : anniversaires et fêtes du jour (`dates.md`), puis ceux des 7 prochains jours avec une idée cadeau tirée de la fiche ; **planning famille du jour** (`maison/planning-famille.md`, lire d'abord le tableau par jour de la semaine) : horaires d'Aline, où sont les filles, activités et vacances ; agenda famille du jour ; **rappels de la maison** (voir ci-dessous).
+1. **Perso** : anniversaires et fêtes du jour, puis ceux des 7 prochains jours (avec le nombre de jours restants) ; **planning famille du jour** ; agenda famille du jour ; **rappels de la maison**. Tout vient du bloc de sortie du script.
 2. **Pro** : agenda Localia du jour ; tâches dues ou en retard (`taches.md`).
 3. **Sport** : voir la méthode ci-dessous.
 4. **Espace** : dernières infos SpaceX et du secteur spatial, **seulement si elles sont importantes** (lancement, essai majeur, échec, annonce ou décision qui change la donne). Sinon, rubrique sautée, sans le dire.
@@ -36,15 +46,15 @@ Sujets : **Formule 1**, **équipe de France de football**, **Olympique de Marsei
 
 ## Rappels de la maison (hebdomadaires)
 
-Source : `maison/menage.md`.
+Source : le script de briefing (d'après `maison/menage.md`).
 
 - **Mercredi** : "Ce soir, rangement de la maison : la femme de ménage passe demain."
 - **Jeudi** : "La femme de ménage passe cet après-midi, de 14 h à 17 h 30."
-- Si une absence ou un jour férié est noté dans `dates.md`, ne pas faire le rappel de cette semaine-là.
+- Si une absence ou un jour férié est noté dans `dates.md` (type « échéance » contenant « ménage »), le script supprime le rappel de cette semaine-là.
 
 ## Sources
 
-- Ce dépôt : `dates.md`, `taches.md`, `personnes/`, `maison/menage.md`, `maison/planning-famille.md`.
+- Ce dépôt : `dates.md`, `taches.md`, `personnes/`, `maison/menage.md`, `maison/planning-famille.md`, `scripts/briefing_du_jour.py`.
 - Agendas : liens iCal privés, gardés dans la configuration de Hermès, **jamais dans ce dépôt**.
 - Actus, sport, espace : recherche web, sources fiables, à recouper. Citer la source de chaque info importante dans la transcription.
 
@@ -60,6 +70,7 @@ Source : `maison/menage.md`.
 ## Période de test
 
 - 7 envois valides. Le premier envoi automatique du 2026-09-30 a échoué (pas de voix) : il ne compte pas. Thibaut note ce qui ne va pas, on ajuste à la fin.
+- Corrections du 2026-10-01 : mauvaise semaine A/B, rappel du ménage et anniversaires oubliés, agenda de demain annoncé comme aujourd'hui. Corrigées par le script de briefing et les sections étiquetées.
 
 ## Arrêt
 
