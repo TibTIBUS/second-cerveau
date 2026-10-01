@@ -1,8 +1,10 @@
 # Planning famille : horaires d'Aline, garde et activités des filles
 
-Source pour le podcast du matin. Informations données par Thibaut le 2026-09-29.
+Source pour le podcast du matin. Informations données par Thibaut le 2026-09-29. **Correction du 2026-10-01 : la semaine du lundi 2026-09-28 est une semaine B** (Aline a fini à 19 h 15 jeudi 1er octobre et finit à 18 h samedi 3 octobre) ; la semaine du 2026-10-05 est donc une semaine A.
 
 Surnoms : **Mamour** = Aline ; **Mamou** = Agnès, la maman d'Aline ; **Papé** = Daniel, le papa d'Aline. Dans le podcast, dire « Aline » ou « Mamou » selon la personne, sans confusion.
+
+**Le podcast n'utilise plus ce tableau directement** : les horaires sont dans `scripts/briefing_du_jour.py` (tables ALINE, APOLLINE, VACANCES, SANS_CLASSE). Ce fichier reste la version lisible. **Si le planning change, modifier le script ET ce fichier.**
 
 ## Méthode en 3 étapes (ne rien deviner)
 
@@ -16,23 +18,23 @@ Le lundi de chaque semaine : la semaine alterne A, B, A, B…
 
 | Lundi de la semaine | Semaine |
 |---|---|
-| 2026-09-28 | A |
-| 2026-10-05 | B |
-| 2026-10-12 | A |
-| 2026-10-19 | B |
-| 2026-10-26 | A |
-| 2026-11-02 | B |
-| 2026-11-09 | A |
-| 2026-11-16 | B |
-| 2026-11-23 | A |
-| 2026-11-30 | B |
-| 2026-12-07 | A |
-| 2026-12-14 | B |
-| 2026-12-21 | A |
-| 2026-12-28 | B |
-| 2027-01-04 | A |
+| 2026-09-28 | B |
+| 2026-10-05 | A |
+| 2026-10-12 | B |
+| 2026-10-19 | A |
+| 2026-10-26 | B |
+| 2026-11-02 | A |
+| 2026-11-09 | B |
+| 2026-11-16 | A |
+| 2026-11-23 | B |
+| 2026-11-30 | A |
+| 2026-12-07 | B |
+| 2026-12-14 | A |
+| 2026-12-21 | B |
+| 2026-12-28 | A |
+| 2027-01-04 | B |
 
-Au-delà : continuer l'alternance (deux semaines de calendrier par cycle, A les semaines dont le lundi est un multiple pair de 7 jours après le 2026-09-28).
+Au-delà : continuer l'alternance (A les semaines dont le lundi est un nombre pair de semaines après le 2026-10-05).
 
 ## Semaine A : jour par jour (hors vacances et jours sans classe)
 
