@@ -16,7 +16,7 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-REF_LUNDI_A = date(2026, 10, 5)  # lundi d'une semaine A (la semaine du 28 sept 2026 est donc B) ; on alterne A, B, A, B...
+REF_LUNDI_A = date(2026, 9, 28)  # lundi d'une semaine A (repos le lundi, finit à 18 h le samedi) ; on alterne A, B, A, B...
 
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet",
@@ -46,11 +46,11 @@ MAISON = "à la maison"
 # Planning d'Aline par semaine et par jour (0 = lundi). None = ne rien annoncer.
 ALINE = {
     "A": {0: "est en repos", 1: "travaille de 9 h à 19 h 15", 2: "travaille de 9 h à 19 h 15",
-          3: "travaille de 9 h à 18 h", 4: "travaille de 9 h à 19 h 15", 5: None,
-          6: "ne travaille pas"},
-    "B": {0: "travaille de 9 h à 19 h 15", 1: "travaille de 9 h à 19 h 15", 2: "est en repos",
           3: "travaille de 9 h à 19 h 15", 4: "travaille de 9 h à 19 h 15",
           5: "travaille de 9 h à 18 h", 6: "ne travaille pas"},
+    "B": {0: "travaille de 9 h à 19 h 15", 1: "travaille de 9 h à 19 h 15", 2: "est en repos",
+          3: "travaille de 9 h à 18 h", 4: "travaille de 9 h à 19 h 15",
+          5: "travaille de 9 h à 19 h 15", 6: "ne travaille pas"},
 }
 # Apolline : chez Séverine les jours où Aline travaille en semaine, sinon à la maison.
 APOLLINE = {
