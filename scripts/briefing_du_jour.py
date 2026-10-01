@@ -16,7 +16,7 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-REF_LUNDI_A = date(2026, 9, 28)  # lundi d'une semaine A ; on alterne A, B, A, B...
+REF_LUNDI_A = date(2026, 10, 5)  # lundi d'une semaine A (la semaine du 28 sept 2026 est donc B) ; on alterne A, B, A, B...
 
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet",
