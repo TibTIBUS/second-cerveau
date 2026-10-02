@@ -5,8 +5,6 @@ Fait : `- [x] ~~Tâche~~ (AAAA-MM-JJ)`, à déplacer dans « Fait » ; vider « 
 
 ## À faire
 
-- [ ] **Vérifier ma taille de pantalon (importante)** — perso, rappel 2026-09-30 à 07 h (Europe/Paris)
-
 ## En attente de quelqu'un
 
 (ajouter « depuis AAAA-MM-JJ »)
@@ -15,6 +13,7 @@ Fait : `- [x] ~~Tâche~~ (AAAA-MM-JJ)`, à déplacer dans « Fait » ; vider « 
 
 ## Fait
 
+- [x] ~~Vérifier ma taille de pantalon~~ : 34/32, Jack & Jones, notée dans `moi/thibaut.md` (2026-10-01)
 - [x] ~~Envoyer la mission n°1 à Hermès~~ (2026-09-29)
 - [x] ~~Dicter 2 ou 3 proches à Hermès (test de capture)~~ (2026-09-29)
 - [x] ~~Créer le dépôt second-cerveau~~ (2026-09-29)
