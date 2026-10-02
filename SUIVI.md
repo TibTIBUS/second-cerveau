@@ -49,7 +49,7 @@ Mode d'emploi complet : `automatisations/hermes-mode-emploi.md`.
 | Podcast du matin (avec planning, agenda, e-mails, audio joint) | Tous les jours à 6 h | Hermès → Telegram (Thibaut seul) | en test, sans limite d'exécutions | `hermes cron pause 8a70e39d3e7d` |
 | Plan de repas du dimanche | Dimanche 18 h | Hermès → Telegram | active, premier vrai passage le 2026-10-04 | `hermes cron pause 68f8b0ae4188` |
 | Agenda FamilyWall : lecture et création | À la demande | Hermès (script + navigateur avec coffre) | active | Retirer la consigne `familywall-calendar` |
-| Réservation Planity | À la demande | Hermès (navigateur avec coffre) | active, premier rendez-vous pris le 2026-10-02 | Retirer la consigne `online-appointment-booking` |
+| Réservation Planity | À la demande | Hermès (navigateur avec coffre) | active, premier rendez-vous pris le 2026-10-01 | Retirer la consigne `online-appointment-booking` |
 | Appels : restaurant et commande à emporter | À la demande, avec « go » | Hermès + ElevenLabs + Twilio | en test (tests concluants, compte rendu automatique après appel) | Retirer la consigne `elevenlabs-reservation-calls` ; révoquer la clé ElevenLabs |
 | Résumé des e-mails dans le podcast | Chaque podcast | Script en lecture seule sur le PC | en test | Retirer la section E-MAILS du wrapper |
 | Prospection : fiche d'appel + relance préparée | Jours ouvrés | Hermès + Gmail pro | proposée | — |
