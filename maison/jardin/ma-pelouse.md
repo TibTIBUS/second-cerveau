@@ -12,8 +12,8 @@ Redonner la santé à la pelouse, très malade après les canicules de l'été 2
 - Robot de tonte : Mammotion Luba 2
 - Problème signalé : pelouse très malade après les canicules de l'été 2026 (2026-10-03) ; détails à compléter avec la première photo
 - Surface approximative : 550 m²
-- Exposition (soleil, ombre, vent, mer) : à compléter
-- Type de sol (sableux, argileux, pH mesuré) : à compléter
+- Exposition : aucune ombre ; terrain venté ; à 2 km de la mer
+- Type de sol : terre argileuse très sèche, sans sable
 - Arrosage possible (oui / non, comment) : à compléter
 - Usage (enfants qui jouent, animaux, chien) : à compléter
 - Produits et engrais déjà utilisés, dates : à compléter
