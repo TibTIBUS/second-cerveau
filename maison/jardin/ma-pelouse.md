@@ -25,3 +25,4 @@ Une ligne par échange : date, zone, symptôme, diagnostic, conseil donné, date
 
 - 2026-10-03 : création de la fiche.
 - 2026-10-03 : pelouse très abîmée par les canicules de l'été. Conseil (Claude) : test de la touffe tirée pour séparer herbe en dormance et herbe morte ; robot à 50 mm sur le reste ; zones mortes à regarnir avant le 20 octobre (tonte à 30 mm, griffage, semis fétuque élevée + fétuque rouge + ray-grass, terreau, engrais de démarrage, arrosage si pas de pluie, zone interdite au robot). Relance : photo de la pelouse à demander dès que possible pour confirmer les zones.
+- 2026-10-03 : test de la touffe fait par Thibaut : l'herbe jaune s'arrache comme de la paille → herbe morte, pas en dormance. Décision : ressemer avant le 20 octobre (scarificateur loué sur sol humide, semis à dominante fétuque élevée, engrais semis, arrosage 3 semaines, robot arrêté sur les zones semées). Étendue exacte des zones mortes à confirmer par photo.
