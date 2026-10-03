@@ -9,7 +9,7 @@ Redonner la santé à la pelouse, très malade après les canicules de l'été 2
 ## Profil
 
 - Lieu : Créances (Manche)
-- Robot de tonte : Mammotion (modèle : à compléter)
+- Robot de tonte : Mammotion Luba 2
 - Problème signalé : pelouse très malade après les canicules de l'été 2026 (2026-10-03) ; détails à compléter avec la première photo
 - Surface approximative : à compléter
 - Exposition (soleil, ombre, vent, mer) : à compléter
