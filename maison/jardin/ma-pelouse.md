@@ -15,7 +15,7 @@ Redonner la santé à la pelouse, très malade après les canicules de l'été 2
 - Exposition : aucune ombre ; terrain venté ; à 2 km de la mer
 - Type de sol : terre argileuse très sèche, sans sable
 - Arrosage possible : oui, tuyau d'arrosage avec diffuseur
-- Usage (enfants qui jouent, animaux, chien) : à compléter
+- Usage : enfants dehors par beau temps ; aucun chien ni autre animal
 - Produits et engrais déjà utilisés, dates : à compléter
 - Hauteur de coupe actuelle du robot : à compléter
 
