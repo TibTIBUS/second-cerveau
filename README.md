@@ -13,6 +13,7 @@ Règle d'or : **une info = un seul endroit**. Si elle existe déjà, on la met �
 | Tâches à faire | `taches.md` |
 | Courses : produits habituels et liste en cours | `maison/courses.md` |
 | Voitures, maison (sans numéros de contrat) | `maison/` |
+| Pelouse | `maison/jardin/` |
 | Capture en vrac, à trier | `inbox.md` |
 | Réglages du podcast du matin | `automatisations/podcast-du-matin.md` |
 | Suivi du chantier et des automatisations | `SUIVI.md` |

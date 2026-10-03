@@ -24,6 +24,7 @@ Règles d'or :
 | Commander à emporter | « Commande chez [restaurant] : [articles]. Retrait à [heure]. Budget maximum [montant] » | Récapitulatif puis « go » |
 | E-mails | « Résume mes e-mails », « Réponds à… » | Résumé libre ; réponse, envoi, suppression, classement : « oui » après aperçu |
 | Capture d'une info | « Note que [info] » (texte ou vocal) | Aucune |
+| Pelouse | Envoie une photo + « qu'est-ce que je fais ? » | Aucun achat de produit sans « oui » |
 
 Après chaque appel téléphonique, Hermès envoie un compte rendu tout seul (résultat, détails, durée, problèmes).
 
